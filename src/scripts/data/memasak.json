@@ -1,0 +1,133 @@
+{
+    "memasak": [
+      {
+        "id": "1",
+        "title": "Ikan teri goreng tepung",
+        "headline":"Cara memasak ikan teri goreng tepung",
+        "bahan":[
+            "1. 250 gr ikan teri segar",
+            "2. 150 gr tepung instan"
+        ],
+        "cara": {
+            "1":"Cuci bersih ikan teri, bilas sebanyak 3 kali, kemudian tiriskan.",
+            "2":"Siapkan baskom, taruh ikan teri di dalam baskom kemudian tuang sedikit demi sedikit tepung instan lalu aduk rata, diamkan 5 menit, setelah terserap beri tepung lagi aduk kembali sampai habis.",
+            "3":"Setelah terserap sempurna sampai tidak ada butir tepung kering dan tanpa menambahkan air, goreng ikan dalam minyak panas dengan api kecil hingga matang dan kering.",
+            "4":"Sajikan"
+        },
+        "pictureId": "https://firebasestorage.googleapis.com/v0/b/learnyfy-d1bf7.appspot.com/o/Memasak%2Fteri%20goreng%20tepung.jpg?alt=media&token=2320bcbf-c07d-4150-87dc-790a4f388a5a",
+        "coverId": "https://firebasestorage.googleapis.com/v0/b/learnyfy-d1bf7.appspot.com/o/Memasak%2Fmemasak.jpg?alt=media&token=cab782d6-25ff-4dec-9b1b-eeb009ea9401"
+      },
+
+      {
+        "id": "2",
+        "title": "Tumis kacang Panjang tempe",
+        "headline":"Cara memasak Tumis kacang Panjang tempe",
+        "bahan":[
+            "1. 1/2 Kacang panjang",
+            "2. 1/2 Papan tempe",
+            "3. 2 siung bawang merah dan bawang putih",
+            "4. 10 buah cabai rawit merah",
+            "5. 4 buah cabai keriting",
+            "6. 2 ruas lengkuas"
+        ],
+        "cara": {
+            "1":"Goreng tempe hingga kecokelatan kemudian sisihkan.",
+            "2":"Tumis bawang dan lengkuas dengan minyak secukupnya hingga wangi. ",
+            "3":"Setelah itu masukkan irisan cabai.",
+            "4":"Masukkan irisan kacang panjang, beri air secukupnya dan masak hingga kacang panjang lunak.",
+            "5":"Beri bumbu-bumbu aduk merata, setelah itu masukkan tempe yang sudah digoreng.",
+            "6":"Koreksi rasa dan siap disajikan."
+        },
+        "pictureId": "https://firebasestorage.googleapis.com/v0/b/learnyfy-d1bf7.appspot.com/o/Memasak%2Ftumis%20kacang%20panjang%20tempe.jpg?alt=media&token=7df3e08e-8117-4f26-af96-cfd8155059b9"
+      },
+
+      {
+        "id": "3",
+        "title": "Tumis kubis",
+        "headline":"Cara memasak Tumis kubis",
+        "bahan":[
+            "1. 6 lembar kubis",
+            "2. 6 bawang merah, iris",
+            "3. 3 bawang putih, iris",
+            "4. 8 cabai rawit, iris halus",
+            "5. 2 daun salam",
+            "6. 2 cm lengkuas, geprek",
+            "7. 200 ml air",
+            "8. 1 sdt kaldu ayam, jamur, dan garam",
+            "9. 1 sdt gula pasir"
+        ],
+        "cara": {
+            "1":"Tumis bumbu iris.",
+            "2":"Masukkan daun salam, lengkuas, kubis, air, dan bumbu lain.",
+            "3":"Masak hingga meresap. Cek rasa, sajikan hangat."
+        },
+        "pictureId": "https://firebasestorage.googleapis.com/v0/b/learnyfy-d1bf7.appspot.com/o/Memasak%2Ftumis%20kubis.jpg?alt=media&token=837bc138-04fd-487d-bd87-497f8fed42f3"
+      },
+
+      {
+        "id": "4",
+        "title": "Rujak kangkung",
+        "headline":"Cara memasak Rujak kangkung",
+        "bahan":[
+            "1. 3 ikat kangkung",
+            "2. 10 buah cabai merah",
+            "3. Gula merah",
+            "4. Garam",
+            "5. Terasi bakar",
+            "6. Asam jawa",
+            "7. Air secukupnya"
+        ],
+        "cara": {
+            "1":"Rebus kangkung yang sudah disiangi. Tambahkan sedikit garam di air rebusan. Sisihkan.",
+            "2":"Haluskan semua bumbu sambal. Taruh di atas kangkung."
+        },
+        "pictureId": "https://firebasestorage.googleapis.com/v0/b/learnyfy-d1bf7.appspot.com/o/Memasak%2Frujak%20kangkung.jpg?alt=media&token=c07b52ef-c557-47b6-ab87-25f9b87a6d00"
+      },
+
+      {
+        "id": "5",
+        "title": "Orak arik telur sayuran",
+        "headline":"Cara memasak orak arik telur sayuran",
+        "bahan":[
+            "1. 2 butir telur, kocok lepas",
+            "2. 10 buah buncis",
+            "3. 1 buah wortel, iris",
+            "4. 1 sdm saus tiram",
+            "5. 2 siung bawang putih, Rajang",
+            "6. 3 siung bawang merah, Rajang",
+            "7. 1 batang daun bawang, iris",
+            "8. 2 buah cabai merah keriting, iris",
+            "9. Garam, gula pasir, merica bubuk"
+        ],
+        "cara": {
+            "1":"Tumis bawang merah dan bawang putih sampai matang, sisihkan di pinggir wajan. Masukkan telur, buat orak arik.",
+            "2":"Masukkan wortel, buncis, daun bawang, saus tiram, cabai merah, garam, gula pasir, dan merica bubuk, aduk-aduk sampai matang, angkat."
+        },
+        "pictureId": "https://firebasestorage.googleapis.com/v0/b/learnyfy-d1bf7.appspot.com/o/Memasak%2Forak%20arik%20telur%20sayuran.jpg?alt=media&token=66ff2048-eddb-4817-a432-7d5c7703e85c"
+      },
+
+      {
+        "id": "6",
+        "title": "Ayam suwir sambal matah",
+        "headline":"Cara memasak ayam suwir sambal matah",
+        "bahan":[
+            "1. 400 gr dada ayam",
+            "2. 6 siung bawang merah",
+            "3. 3 siung bawang putih",
+            "4. 1 batang sereh",
+            "5. 5 lembar daun jeruk",
+            "6. 1/2 sdt terasi",
+            "7. Gula secukupnya",
+            "8. Garam secukupnya",
+            "9. Penyedap rasa secukupnya"
+        ],
+        "cara": {
+            "1":"Rebus ayam sebentar saja, goreng. Lalu suwir suwir.",
+            "2":"Iris tipis bawang, cabai, sereh, terasi, daun jeruk.",
+            "3":"Tumis sebentar. Masukkan suwiran ayam. Tambahkan gula, garam, dan penyedap rasa.",
+            "4":"Ayam suwir sambal matah siap dinikmati."
+        },
+        "pictureId": "https://firebasestorage.googleapis.com/v0/b/learnyfy-d1bf7.appspot.com/o/Memasak%2FAyam%20suwir%20sambal%20matah.jpg?alt=media&token=8b9ec531-fa24-45c6-80c4-514c6dea2004"
+      }
+    ]
+}

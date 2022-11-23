@@ -1,0 +1,45 @@
+{
+    "dashboard": [
+        {
+            "id" : "1",
+            "title" : "Bisnis",
+            "pictureId" : "https://cdn1-production-images-kly.akamaized.net/_9OCA7Qi30wPqji5uFDuWuL10kg=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/1092033/original/083640600_1450787101-Ilustrasi_Grafik_Perkembangan__Penjualan__dan_atau_Pencapaian_Perusahaan_dan_Bisnis_Kredit_Freepik.jpg"
+        },
+        {
+            "id": "2",
+            "title": "Ilmu Komputer",
+            "pictureId": "https://universitasmulia.ac.id/wp-content/uploads/2021/05/ilustrasi-informatics-1030x579.jpg"
+        },
+        {
+            "id": "3",
+            "title": "Investasi",
+            "pictureId": "https://awsimages.detik.net.id/community/media/visual/2021/10/01/ilustrasi-investasi_169.png"
+        },
+        {
+            "id": "4",
+            "title": "Kerajinan",
+            "pictureId": "https://images.theconversation.com/files/230166/original/file-20180801-136667-1y6m2kq.jpg?ixlib=rb-1.1.0&rect=0%2C10%2C6989%2C4652&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip"
+        },
+        {
+            "id": "5",
+            "title": "Kesehatan",
+            "pictureId": "https://blog.iik.ac.id/wahyuqdr/wp-content/uploads/sites/345/2020/06/3568984-scaled.jpg"
+        },
+        {
+            "id": "6",
+            "title": "Memasak",
+            "pictureId": "https://akcdn.detik.net.id/visual/2021/04/29/ilustrasi-masak_169.jpeg?w=650"
+        },
+        {
+            "id": "7",
+            "title": "Olahraga",
+            "pictureId": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ57bXlV2aIj6xwjx9w24TGfz75tQBIOSw_hg&usqp=CAU"
+        },
+        {
+            "id": "8",
+            "title": "Pertanian",
+            "pictureId": "https://assets.corteva.com/is/image/Corteva/ar2-12okt20?$image_desktop$"
+        }
+
+    ]
+}
