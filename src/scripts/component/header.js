@@ -74,13 +74,69 @@ class HeaderApp extends HTMLElement {
     .open{
       display: block;
     }
+
+    @media screen and (min-width: 600px) {
+      .header-menu {
+        display: none;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      .header {
+        color:#fff;
+        background-color: #6998AB;
+      }
+
+      .nav-list {
+        -webkit-transform: translate(610px, 0);
+        transform: translate(610px, 0);
+        transition: transform 0.5s ease-in;
+      }
+      
+      .open-drawer {
+        -webkit-transform: translate(300px, 0);
+        transform: translate(300px, 0);
+        margin-top: -43px;
+      }
+      .nav-item {
+        display: list-item;
+        width: 50%;
+        text-align: left;
+        margin: 10px;
+      }
+
+      .header-menu {
+        width: 15%;
+        margin-left: 75%;
+      }
+
+      .sticky {
+        height: 10%;
+      }
+
+      .dropdown {
+        list-style-type: none;
+      }
+
+      .dropdown-button {
+        padding-left: -10px;
+      }
+
+      .nav-list {
+        background-color: red;
+      }
+
+    
+    }
+    
+  
       </style>
       <header>
-      <div class="header">
-          <!-- <a href="#" id="hamburgerMenu" class="header-menu" aria-label="navigation-menu">☰</a> -->             
+      <div class="header">            
             <nav id="drawerNavigation" class="navbar">
               <h1 class="name-apps">LEARNIFY</h1>
-              <ul class="nav-list">
+              <button id="hamburgerMenu" class="header-menu" aria-label="navigation-menu">☰</button>  
+              <ul class="nav-list open">
                 <li class="nav-item"><a href="/">HOME</a></li>
                 <li class="nav-item"><a href="#/dashboard">DASHBOARD</a></li>
                 <div class="dropdown nav-item">

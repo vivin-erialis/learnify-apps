@@ -1,11 +1,19 @@
 const DrawerInitiator = {
-    init({ dropbutton, dropdown }) {
+    init({ dropbutton, dropdown, button, drawer }) {
       dropbutton.addEventListener('click', (event) => {
         this._toggleDropDown(event, dropdown);
       });
   
       dropdown.addEventListener('click', (event) => {
         this._closeDropDown(event, dropdown);
+      });
+
+      button.addEventListener('click', (event) => {
+        this._toggleDrawer(event, drawer);
+      });
+  
+      drawer.addEventListener('click', (event) => {
+        this._closeDrawer(event, drawer);
       });
     },
 
@@ -18,6 +26,17 @@ const DrawerInitiator = {
     _closeDropDown(event, dropdown) {
       event.stopPropagation();
       dropdown.classList.remove('open');
+    },
+
+    _toggleDrawer(event, drawer) {
+      event.preventDefault();
+      event.stopPropagation();
+      drawer.classList.toggle('open-drawer');
+    },
+  
+    _closeDrawer(event, drawer) {
+      event.stopPropagation();
+      drawer.classList.remove('open-drawer');
     },
   
   };

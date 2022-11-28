@@ -6,7 +6,7 @@ const DashboardListItem = (dashboard) => {
             <img src="${dashboard.pictureId}" alt="Picture">
         </div>
         <div class="container">
-        <h2 class="title"><a href="#">${dashboard.title}</a></h2>
+        <h2 class="title"><a href="#/">${dashboard.title}</a></h2>
         </div>
     </article>`;
 }

@@ -1,6 +1,7 @@
 import TheModulSource from "../../data/themodul-source";
 import { DashboardListItem } from "../templates/template-creator";
 import dashboard from '../../data/dashboard.json';
+import bisnis from '../../data/bisnis.json';
 
 const Dashboard = {
     async render() {
@@ -33,6 +34,14 @@ const Dashboard = {
                 margin-top: 20px;
                 font-size: 13px;
             }
+
+            @media screen and (max-width: 600px) {
+                .module {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                }
+            } 
+            
         </style>
             `;
       },

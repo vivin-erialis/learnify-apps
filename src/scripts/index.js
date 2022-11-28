@@ -2,7 +2,9 @@ import './component/header.js';
 import './component/landing-page.js';
 import './component/about.js';
 import '../styles/main.css';
+import '../styles/responsive.css';
 import App from './views/app';
+
 
 const nav = document.querySelector("nav")
 window.addEventListener("scroll", () => {
@@ -18,6 +20,8 @@ const app = new App({
     dropbutton: document.querySelector('.dropdown-button'),
     dropdown: document.querySelector('.dropdown-content'),
     content: document.querySelector('#module'),
+    button : document.querySelector('#hamburgerMenu'),
+    drawer : document.querySelector('.nav-list'),
 });
   
 window.addEventListener('hashchange', () => {
