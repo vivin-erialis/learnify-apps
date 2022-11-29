@@ -7,8 +7,8 @@ import DrawerInitiator from "../utils/drawer-initiator";
 
 
 class App {
-  constructor({ dropbutton, dropdown, content, button, drawer }) {
-    this._dropbutton = dropbutton;
+  constructor({ dropdownbutton, dropdown, content, button, drawer }) {
+    this._dropdownbutton = dropdownbutton;
     this._dropdown = dropdown;
     this._content = content;
     this._drawer = drawer;
@@ -20,7 +20,7 @@ class App {
 
   _initialAppShell(){
     DrawerInitiator.init({
-      dropbutton : this._dropbutton,
+      dropdownbutton : this._dropdownbutton,
       dropdown : this._dropdown,
       drawer : this._drawer,
       button : this._button,

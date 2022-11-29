@@ -18,16 +18,20 @@ const Dashboard = {
                 border-radius: 10px;
             }
             .title a{
-                color: black;
                 text-decoration: none;
                 color: #1A374D;
                 font-size: 20px;
             } 
+            .title {
+                margin-top: -2px;
+                text-align: center;
+            }
             .container {
                 padding: 10px;
             }
             .module-item-picture img {
                 width: 100%;
+                height: 150px;
                 border-radius: 10px 10px 0px 0px;
             }
             .headline {
@@ -35,14 +39,50 @@ const Dashboard = {
                 font-size: 13px;
             }
 
+            @media screen and (max-width: 900px) {
+                .module {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                }
+
+                .module-item-picture img {
+                    width: 100%;
+                }
+
+                .title a{
+                    font-size: 20px;
+                }
+            } 
+
             @media screen and (max-width: 600px) {
                 .module {
                     display: grid;
                     grid-template-columns: 1fr 1fr;
                 }
+
+                .module-item-picture img {
+                    width: 100%;
+                    height: 100px;
+                }
+
+                .title a{
+                    font-size: 16px;
+                }
+            } 
+
+            @media screen and (max-width: 450px) {
+                .module {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                }
+
+                .module-item-picture img {
+                    width: 100%;
+                }
             } 
             
         </style>
+        
             `;
       },
     
@@ -50,7 +90,8 @@ const Dashboard = {
         // const dash = await TheModulSource.ModulDashboard();
         const dashId = document.querySelector('#module');
         dashboard.dashboard.forEach((dashboards) => {
-          dashId.innerHTML += `<article class="module-item">
+          dashId.innerHTML += `
+            <article class="module-item">
                 <div class="module-item-picture">
                     <img src="${dashboards.pictureId}" alt="Picture">
                 </div>

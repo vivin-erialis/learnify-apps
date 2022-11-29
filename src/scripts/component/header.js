@@ -12,7 +12,6 @@ class HeaderApp extends HTMLElement {
         padding: 20px;
         color:#fff;
         background-color: #6998AB;
-        padding: 40px;
       }
       nav {
         position: fixed;
@@ -75,13 +74,13 @@ class HeaderApp extends HTMLElement {
       display: block;
     }
 
-    @media screen and (min-width: 600px) {
+    @media screen and (min-width: 750px) {
       .header-menu {
         display: none;
       }
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 750px) {
       .header {
         color:#fff;
         background-color: #6998AB;
@@ -106,7 +105,7 @@ class HeaderApp extends HTMLElement {
       }
 
       .header-menu {
-        width: 15%;
+        width: 100%;
         margin-left: 75%;
       }
 
@@ -118,14 +117,9 @@ class HeaderApp extends HTMLElement {
         list-style-type: none;
       }
 
-      .dropdown-button {
+      .dropdownbutton {
         padding-left: -10px;
       }
-
-      .nav-list {
-        background-color: red;
-      }
-
     
     }
     

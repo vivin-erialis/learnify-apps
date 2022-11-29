@@ -1,6 +1,6 @@
 const DrawerInitiator = {
-    init({ dropbutton, dropdown, button, drawer }) {
-      dropbutton.addEventListener('click', (event) => {
+    init({ dropdownbutton, dropdown, button, drawer }) {
+      dropdownbutton.addEventListener('click', (event) => {
         this._toggleDropDown(event, dropdown);
       });
   

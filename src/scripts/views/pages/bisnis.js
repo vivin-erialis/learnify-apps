@@ -8,7 +8,7 @@ const Bisnis = {
             .module {
                 display: grid;
                 grid-template-columns: repeat(4,1fr);
-                background-color: #6998AB;
+                
             }
             .module-item {
                 background-color: #B1D0E0;
@@ -33,6 +33,16 @@ const Bisnis = {
                 margin-top: 20px;
                 font-size: 13px;
             }
+
+            @media screen and (min-width: 500px) {
+                .module-item {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                }
+                
+            }
+            
+            
         </style>`;
       },
     

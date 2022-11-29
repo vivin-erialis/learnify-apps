@@ -13,6 +13,7 @@ class LandingPage extends HTMLElement {
             width: 100%;
             color: white;
             background-color: #6998AB;
+            margin-top: 30px;
         }
         .logo {
             width: 100%;
@@ -25,8 +26,12 @@ class LandingPage extends HTMLElement {
             margin-bottom: 10px;
             font-size: 50px;
         }
+
+        .landing-page h1 {
+            text-align: left;
+        }
         .landing-page p{
-            font-size: 13px;
+            font-size: 16px;
         }
         .btn-start {
             margin-top: 20px;
@@ -38,12 +43,38 @@ class LandingPage extends HTMLElement {
             padding: 10px 13px;
         }
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 700px) {
             main {
                 display: grid;
                 grid-template-columns: 1fr;
             }
+
+            .landing-page {
+                margin-top: 2px;
+            }
+
+            .landing-page h1 {
+                font-size: 35px;
+            }
+
+            .landing-page p {
+                font-size: 20px;
+            }
         } 
+
+        @media screen and (min-width: 300px) {
+            .landing-page h1 {
+                font-size: 25px;
+            }
+
+            .landing-page p {
+                font-size: 14px;
+            }
+
+            .landing-page {
+                margin: 25px;
+            }
+        }
         
         </style>
 
@@ -54,9 +85,12 @@ class LandingPage extends HTMLElement {
 
             <article class="landing-page">
                 <h1 class="tagline">Learnify</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, autem odit? 
-                Magni praesentium, veritatis voluptatibus expedita eligendi vel voluptatem 
-                beatae temporibus ea! Temporibus, obcaecati iure debitis placeat libero ipsam nesciunt.</p>
+                <p>
+                    siap jadi teman belajarmu kapanpun dan dimanapun kamu berada.<br>
+                    Nikmati serunya belajar banyak hal dengan 
+                    learnify.
+                </p>
+
                 <button class="btn-start">Mulai sekarang</button>
             </article>
       </main>
