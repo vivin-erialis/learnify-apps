@@ -26,6 +26,7 @@ class AboutPage extends HTMLElement {
         .tagline-profile{
           text-align: center;
           margin: 10px;
+          color: black;
         }
 
         @media screen and (max-width:800px) {
@@ -48,7 +49,19 @@ class AboutPage extends HTMLElement {
       }
       
     } 
-    
+
+    @media screen and (min-width:1200px) {
+      .content-profile {
+          display: grid;
+          grid-template-columns: repeat(4,1fr);
+      }
+        .profile {
+          background-color: white;
+          margin: 20px;
+          box-shadow: 0 4px 8px 0 #6998AB;
+          border-radius: 5px;
+      }
+  } 
 
       </style>
       <h1 class="dash-tagline">ABOUT US</h1><hr>

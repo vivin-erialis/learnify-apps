@@ -3,6 +3,7 @@ import { DashboardListItem } from "../templates/template-creator";
 import dashboard from '../../data/dashboard.json';
 import bisnis from '../../data/bisnis.json';
 import '../../component/landing-page';
+import '../../component/about';
 
 const Dashboard = {
     async render() {
@@ -95,6 +96,7 @@ const Dashboard = {
             <article id="module" class="module">
             </article>
         </section>
+        <about-page></about-page>
             `;
       },
     
