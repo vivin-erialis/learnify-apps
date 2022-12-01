@@ -6,15 +6,6 @@ class LandingPage extends HTMLElement {
     render() {
         this.innerHTML = `
         <style>
-        main {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            align-items: center;
-            width: 100%;
-            color: white;
-            background-color: #6998AB;
-            margin-top: 30px;
-        }
         .logo {
             width: 100%;
         }
@@ -75,14 +66,16 @@ class LandingPage extends HTMLElement {
                 margin: 25px;
             }
         }
+
+        .content-section2 {
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            align-items:center;
+            margin-top:20px;
+        }
         
         </style>
-
-        <main>
-            <article>
-                <img class="logo" src="images/logo.png">
-            </article>
-
+         <section class="content-section2">
             <article class="landing-page">
                 <h1 class="tagline">Learnify</h1>
                 <p>
@@ -90,10 +83,12 @@ class LandingPage extends HTMLElement {
                     Nikmati serunya belajar banyak hal dengan 
                     learnify.
                 </p>
-
                 <button class="btn-start">Mulai sekarang</button>
             </article>
-      </main>
+            <article>
+                <img class="logo" src="images/logo.png">
+            </article>
+        </section>
         `
     }
 }

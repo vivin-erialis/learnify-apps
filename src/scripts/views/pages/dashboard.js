@@ -2,6 +2,7 @@ import TheModulSource from "../../data/themodul-source";
 import { DashboardListItem } from "../templates/template-creator";
 import dashboard from '../../data/dashboard.json';
 import bisnis from '../../data/bisnis.json';
+import '../../component/landing-page';
 
 const Dashboard = {
     async render() {
@@ -80,9 +81,20 @@ const Dashboard = {
                     width: 100%;
                 }
             } 
+
+            @media screen and (min-width: 1200px) {
+               main {
+                min-width:1200px;
+               }
+            } 
             
         </style>
-        
+        <landing-page></landing-page>
+        <section class="content-section">
+            <h1 class="dash-tagline">DASHBOARD</h1><hr>
+            <article id="module" class="module">
+            </article>
+        </section>
             `;
       },
     
@@ -98,7 +110,8 @@ const Dashboard = {
                 <div class="container">
                 <h2 class="title"><a href="#">${dashboards.title}</a></h2>
                 </div>
-            </article>`;
+            </article>
+            `;
         });
 
 

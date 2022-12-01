@@ -32,6 +32,11 @@ const Ilkom = {
                 font-size: 13px;
             }
         </style>
+        <section class="content-section">
+        <h1 class="dash-tagline">ILMU KOMUNIKASI</h1><hr>
+        <article id="module" class="module">
+        </article>
+        </section>
             `;
       },
     

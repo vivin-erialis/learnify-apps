@@ -16,7 +16,7 @@ class HeaderApp extends HTMLElement {
       nav {
         position: fixed;
         display: grid;
-        grid-template-columns: 1fr 0.2fr;
+        grid-template-columns: 1fr 1fr;
         left: 0;
         top: 0;
         width: 100%;
@@ -81,6 +81,15 @@ class HeaderApp extends HTMLElement {
     }
 
     @media screen and (max-width: 750px) {
+      nav {
+        position: fixed;
+        display: grid;
+        grid-template-columns: 1fr 0.2fr;
+        left: 0;
+        top: 0;
+        width: 100%;
+        padding: 20px;
+      }   
       .header {
         color:#fff;
         background-color: #6998AB;
@@ -121,6 +130,7 @@ class HeaderApp extends HTMLElement {
       }
     
     }
+
     
   
       </style>

@@ -19,7 +19,7 @@ window.addEventListener("scroll", () => {
 const app = new App({
     dropdownbutton: document.querySelector('.dropdown-button'),
     dropdown: document.querySelector('.dropdown-content'),
-    content: document.querySelector('#module'),
+    content: document.querySelector('main'),
     button : document.querySelector('#hamburgerMenu'),
     drawer : document.querySelector('.nav-list'),
 });

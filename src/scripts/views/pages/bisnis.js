@@ -4,7 +4,8 @@ import bisnis from '../../data/bisnis.json';
 
 const Bisnis = {
     async render() {
-            return ` <style>
+            return ` 
+            <style>
             .module {
                 display: grid;
                 grid-template-columns: repeat(4,1fr);
@@ -41,9 +42,20 @@ const Bisnis = {
                 }
                 
             }
-            
-            
-        </style>`;
+
+             @media screen and (min-width: 1200px) {
+                .module-item {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                }
+            }
+        </style>
+        <section class="content-section">
+        <h1 class="dash-tagline">BISNIS</h1><hr>
+        <article id="module" class="module">
+        </article>
+        </section>
+        `;
       },
     
       async afterRender() {
