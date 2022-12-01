@@ -16,7 +16,7 @@ class HeaderApp extends HTMLElement {
       nav {
         position: fixed;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 0.2fr;
         left: 0;
         top: 0;
         width: 100%;
@@ -93,9 +93,9 @@ class HeaderApp extends HTMLElement {
       }
       
       .open-drawer {
-        -webkit-transform: translate(300px, 0);
-        transform: translate(300px, 0);
-        margin-top: -43px;
+        -webkit-transform: translate(180px, 0);
+        transform: translate(180px, 0);
+        margin-top: -15px;
       }
       .nav-item {
         display: list-item;
@@ -105,8 +105,7 @@ class HeaderApp extends HTMLElement {
       }
 
       .header-menu {
-        width: 100%;
-        margin-left: 75%;
+        padding: 5px;
       }
 
       .sticky {
