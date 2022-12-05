@@ -33,6 +33,7 @@ const Olahraga = {
             }
         </style>
         <section class="content-section">
+        <img class="picture-page" src="../images/olahraga.jpg">
         <h1 class="dash-tagline">OLAHRAGA</h1><hr>
         <article id="module" class="module">
         </article>

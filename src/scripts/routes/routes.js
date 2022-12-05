@@ -7,7 +7,6 @@ import Kesehatan from "../views/pages/kesehatan";
 import Memasak from "../views/pages/memasak";
 import Olahraga from "../views/pages/olahraga";
 import Pertanian from "../views/pages/pertanian";
-import DetailBisnis from "../views/pages/detailbisnis";
 // import '../component/bisnis';
 // import Detail from "../views/pages/detail";
 // import Favorite from "../views/pages/favorite";
@@ -23,7 +22,6 @@ const routes = {
   '/memasak': Memasak,
   '/olahraga': Olahraga,
   '/pertanian': Pertanian,
-  // '/detailBisnis': Bisnis,
 //   '/favorite': Favorite,
 };
 

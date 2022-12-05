@@ -96,8 +96,8 @@ class HeaderApp extends HTMLElement {
       }
 
       .nav-list {
-        -webkit-transform: translate(610px, 0);
-        transform: translate(610px, 0);
+        -webkit-transform: translate(710px, 0);
+        transform: translate(710px, 0);
         transition: transform 0.5s ease-in;
       }
       
@@ -114,7 +114,11 @@ class HeaderApp extends HTMLElement {
       }
 
       .header-menu {
-        padding: 5px;
+        padding: 0px;
+        border: none;
+        font-size: 25px;
+        color: white;
+        text-align: right;
       }
 
       .sticky {
@@ -130,18 +134,16 @@ class HeaderApp extends HTMLElement {
       }
     
     }
-
-    
-  
       </style>
       <header>
       <div class="header">            
             <nav id="drawerNavigation" class="navbar">
               <h1 class="name-apps">LEARNIFY</h1>
-              <button id="hamburgerMenu" class="header-menu" aria-label="navigation-menu">☰</button>  
+              <a href="#" id="hamburgerMenu" class="header-menu" aria-label="navigation-menu">☰</a>  
               <ul class="nav-list open">
                 <li class="nav-item"><a href="/">HOME</a></li>
-                <li class="nav-item"><a href="#/dashboard">DASHBOARD</a></li>
+                <li class="nav-item"><a href="#dashboard">DASHBOARD</a></li>
+                <li class="nav-item"><a href="#about">ABOUT</a></li>
                 <div class="dropdown nav-item">
                   <button class="dropdown-button">MODUL</button>
                   <div class="dropdown-content">

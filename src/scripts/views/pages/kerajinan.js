@@ -33,6 +33,7 @@ const Kerajinan = {
             }
         </style>
         <section class="content-section">
+        <img class="picture-page" src="../images/kerajinan.jpg">
         <h1 class="dash-tagline">KERAJINAN</h1><hr>
         <article id="module" class="module">
         </article>

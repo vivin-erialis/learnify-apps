@@ -33,6 +33,7 @@ const Kesehatan = {
             }
         </style>
         <section class="content-section">
+        <img class="picture-page" src="../images/kesehatan.jpg">
         <h1 class="dash-tagline">KESEHATAN</h1><hr>
         <article id="module" class="module">
         </article>

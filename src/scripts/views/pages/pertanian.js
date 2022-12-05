@@ -33,6 +33,7 @@ const Pertanian = {
             }
         </style>
         <section class="content-section">
+        <img class="picture-page" src="../images/pertanian.jpg">
         <h1 class="dash-tagline">PERTANIAN</h1><hr>
         <article id="module" class="module">
         </article>

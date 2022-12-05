@@ -1,7 +1,4 @@
-import TheModulSource from "../../data/themodul-source";
-import { DashboardListItem } from "../templates/template-creator";
 import dashboard from '../../data/dashboard.json';
-import bisnis from '../../data/bisnis.json';
 import '../../component/landing-page';
 import '../../component/about';
 
@@ -33,7 +30,6 @@ const Dashboard = {
             }
             .module-item-picture img {
                 width: 100%;
-                height: 150px;
                 border-radius: 10px 10px 0px 0px;
             }
             .headline {
@@ -56,7 +52,7 @@ const Dashboard = {
                 }
             } 
 
-            @media screen and (max-width: 600px) {
+            @media screen and (max-width: 700px) {
                 .module {
                     display: grid;
                     grid-template-columns: 1fr 1fr;
@@ -64,11 +60,13 @@ const Dashboard = {
 
                 .module-item-picture img {
                     width: 100%;
-                    height: 100px;
                 }
 
                 .title a{
                     font-size: 16px;
+                }
+                .dash-tagline {
+                    font-size: 25px;
                 }
             } 
 
@@ -81,6 +79,10 @@ const Dashboard = {
                 .module-item-picture img {
                     width: 100%;
                 }
+
+                .dash-tagline {
+                    font-size: 20px;
+                }
             } 
 
             @media screen and (min-width: 1200px) {
@@ -90,8 +92,9 @@ const Dashboard = {
             } 
             
         </style>
+
         <landing-page></landing-page>
-        <section class="content-section">
+        <section class="content-section" id="dashboard">
             <h1 class="dash-tagline">DASHBOARD</h1><hr>
             <article id="module" class="module">
             </article>

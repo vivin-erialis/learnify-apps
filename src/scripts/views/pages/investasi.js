@@ -33,6 +33,7 @@ const Investasi = {
             }
         </style>
         <section class="content-section">
+        <img class="picture-page" src="../images/investasi.jpg">
         <h1 class="dash-tagline">INVESTASI</h1><hr>
         <article id="module" class="module">
         </article>

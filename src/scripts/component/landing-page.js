@@ -24,6 +24,7 @@ class LandingPage extends HTMLElement {
         .landing-page p{
             font-size: 16px;
         }
+
         .btn-start {
             margin-top: 20px;
             color: #406882;
@@ -34,48 +35,93 @@ class LandingPage extends HTMLElement {
             padding: 10px 13px;
         }
 
-        @media screen and (max-width: 700px) {
-            main {
-                display: grid;
-                grid-template-columns: 1fr;
-            }
-
-            .landing-page {
-                margin-top: 2px;
-            }
-
-            .landing-page h1 {
-                font-size: 35px;
-            }
-
-            .landing-page p {
+        @media screen and (max-width: 600px) {
+            .landing-page h1{
                 font-size: 20px;
             }
-        } 
-
-        @media screen and (min-width: 300px) {
-            .landing-page h1 {
-                font-size: 25px;
-            }
 
             .landing-page p {
-                font-size: 14px;
+                font-size: 11px;
             }
 
             .landing-page {
-                margin: 25px;
+                margin: 30px 20px;
             }
+
+            .tagline {
+                font-size: 18px;
+            }
+
+            .landing-page button{
+                font-size: 10px;
+            }
+
+        } 
+
+        @media screen and (max-width: 400px) {
+            .landing-page h1{
+                font-size: 18px;
+            }
+
+            .landing-page p {
+                font-size: 10px;
+            }
+
+            .landing-page {
+                margin: 40px 20px;
+            }
+
+            .tagline {
+                font-size: 15px;
+            }
+
+            .content-section2 {
+                display:grid;
+                grid-template-columns: 1fr ;
+                
+            }
+
+            .landing-page button{
+                font-size: 10px;
+            }
+
         }
 
-        .content-section2 {
-            display:grid;
-            grid-template-columns: 1fr 1fr;
-            align-items:center;
-            margin-top:20px;
-        }
+        
+        @media screen and (min-width: 700px) {
+            .content-section2 {
+                display:grid;
+                grid-template-columns: 1fr 1fr;
+                align-items:center;
+                margin-top:20px;
+            }
+
+            .landing-page h1{
+                font-size: 20px;
+            }
+
+            .landing-page p {
+                font-size: 11px;
+            }
+
+            .landing-page {
+                margin: 30px 20px;
+            }
+
+            .tagline {
+                font-size: 18px;
+            }
+
+            .landing-page button{
+                font-size: 10px;
+            }
+        } 
         
         </style>
          <section class="content-section2">
+            <article>
+                <img class="logo" src="images/logo.png">
+            </article>
             <article class="landing-page">
                 <h1 class="tagline">Learnify</h1>
                 <p>
@@ -85,9 +131,7 @@ class LandingPage extends HTMLElement {
                 </p>
                 <button class="btn-start">Mulai sekarang</button>
             </article>
-            <article>
-                <img class="logo" src="images/logo.png">
-            </article>
+            
         </section>
         `
     }

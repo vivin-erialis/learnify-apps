@@ -31,9 +31,11 @@ const Ilkom = {
                 margin-top: 20px;
                 font-size: 13px;
             }
+
         </style>
         <section class="content-section">
-        <h1 class="dash-tagline">ILMU KOMUNIKASI</h1><hr>
+        <img class="picture-page" src="../images/ilkom.jpg">
+        <h1 class="dash-tagline">ILMU KOMPUTER</h1><hr>
         <article id="module" class="module">
         </article>
         </section>

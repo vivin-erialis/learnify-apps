@@ -33,6 +33,7 @@ const Memasak = {
             }
         </style>
         <section class="content-section">
+        <img class="picture-page" src="../images/memasak.jpg">
         <h1 class="dash-tagline">MEMASAK</h1><hr>
         <article id="module" class="module">
         </article>

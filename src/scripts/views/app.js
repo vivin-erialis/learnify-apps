@@ -1,10 +1,6 @@
 import routes from "../routes/routes";
 import UrlParser from "../routes/url-parser";
-// import '../component/dashboard.js';
 import DrawerInitiator from "../utils/drawer-initiator";
-// import '../component/header';
-// import '../component/landing-page';
-
 
 class App {
   constructor({ dropdownbutton, dropdown, content, button, drawer }) {

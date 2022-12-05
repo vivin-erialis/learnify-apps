@@ -36,7 +36,7 @@ class AboutPage extends HTMLElement {
           }
       } 
 
-      @media screen and (max-width: 300px) {
+      @media screen and (max-width: 400px) {
         .content-profile {
           display: grid;
           grid-template-columns: 1fr;
@@ -65,7 +65,7 @@ class AboutPage extends HTMLElement {
 
       </style>
       <h1 class="dash-tagline">ABOUT US</h1><hr>
-      <div class="content-profile">
+      <div class="content-profile" id="about">
           <div class="profile">
             <img class="logo" src="../images/ikon.jfif">
             <h4 class="tagline-profile">Dicoding</h4>
