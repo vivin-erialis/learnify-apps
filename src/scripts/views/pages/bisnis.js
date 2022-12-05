@@ -1,5 +1,3 @@
-import TheModulSource from "../../data/themodul-source";
-import { DashboardListItem } from "../templates/template-creator";
 import bisnis from '../../data/bisnis.json';
 
 const Bisnis = {
@@ -11,12 +9,14 @@ const Bisnis = {
                 grid-template-columns: repeat(4,1fr);
                 
             }
+        
             .module-item {
                 background-color: #B1D0E0;
                 margin: 20px;
                 box-shadow: 0 2px 4px 0 #1A374D;
                 border-radius: 10px;
             }
+        
             .title a{
                 color: black;
                 text-decoration: none;
@@ -30,30 +30,13 @@ const Bisnis = {
                 width: 100%;
                 border-radius: 10px 10px 0px 0px;
             }
-            .headline {
-                margin-top: 20px;
-                font-size: 13px;
-            }
-
-            @media screen and (min-width: 500px) {
-                .module-item {
-                    display: grid;
-                    grid-template-columns: 1fr 1fr;
-                }
-                
-            }
-
-             @media screen and (min-width: 1200px) {
-                .module-item {
-                    display: grid;
-                    grid-template-columns: 1fr;
-                }
-            }
+    
         </style>
         <section class="content-section">
-        <h1 class="dash-tagline">BISNIS</h1><hr>
-        <article id="module" class="module">
-        </article>
+            <img class="picture-page" src="../images/bisnis.jpg">
+            <h1 class="dash-tagline">BISNIS</h1><hr>
+            <article id="module" class="module">
+            </article>
         </section>
         `;
       },
