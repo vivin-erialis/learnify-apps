@@ -115,7 +115,36 @@ class LandingPage extends HTMLElement {
             .landing-page button{
                 font-size: 10px;
             }
-        } 
+        }
+        
+        @media screen and (min-width: 300px) {
+            .content-section2 {
+                display:grid;
+                grid-template-columns: 1fr;
+                align-items:center;
+                margin-top:20px;
+            }
+
+            .landing-page h1{
+                font-size: 20px;
+            }
+
+            .landing-page p {
+                font-size: 13px;
+            }
+
+            .landing-page {
+                margin: 30px 20px;
+            }
+
+            .tagline {
+                font-size: 15px;
+            }
+
+            .landing-page button{
+                font-size: 10px;
+            }
+        }
         
         </style>
          <section class="content-section2">
@@ -133,7 +162,7 @@ class LandingPage extends HTMLElement {
             </article>
             
         </section>
-        `
+        `;
     }
 }
 
