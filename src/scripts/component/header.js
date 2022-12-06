@@ -16,17 +16,20 @@ class HeaderApp extends HTMLElement {
       nav {
         position: fixed;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 0.5fr 1.5fr;
         left: 0;
         top: 0;
         width: 100%;
         padding: 20px;
-      }    
+      }
+      
       nav li {
         display: inline;
         list-style-type: none;
         margin-right: 20px;
-      }      
+      }
+      
+      
       nav a:hover {
         color: #06283D ;
       }
@@ -40,6 +43,7 @@ class HeaderApp extends HTMLElement {
       .nav-list {
         text-align: right;
         margin-right: 40px;
+        background:#406882;
       }
       .dropdown-button {
         color: #406882;
@@ -78,6 +82,7 @@ class HeaderApp extends HTMLElement {
       .header-menu {
         display: none;
       }
+
     }
 
     @media screen and (max-width: 750px) {
@@ -96,14 +101,14 @@ class HeaderApp extends HTMLElement {
       }
 
       .nav-list {
-        -webkit-transform: translate(710px, 0);
-        transform: translate(710px, 0);
+        -webkit-transform: translate(150%, 0);
+        transform: translate(150%, 0);
         transition: transform 0.5s ease-in;
       }
       
       .open-drawer {
-        -webkit-transform: translate(180px, 0);
-        transform: translate(180px, 0);
+        -webkit-transform: translate(85%, 0);
+        transform: translate(85%, 0);
         margin-top: -15px;
       }
       .nav-item {
