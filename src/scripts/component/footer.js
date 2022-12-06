@@ -6,19 +6,31 @@ class FooterApp extends HTMLElement {
     render() {
         this.innerHTML = `
         <style>
-            footer {
-                background-color: #406882;
-                padding: 8px; 
-            }
-            footer p {
-                text-align: center;
-                color: white;
-                margin-top: 12px;
-            }
+            footer{
+			display: grid;
+			grid-template-rows: 1fr 0.15fr;
+			min-height: 200px;
+			background: #406882;
+		}
+
+		footer h1{
+			padding: 50px;
+			margin: 0 auto;
+			text-align: center;
+		}
+
+		footer .copyright{
+			padding-top: 5px;
+			text-align: center;
+			background: whitesmoke;
+		}
         </style>
         <footer>
-            <p>Dicoding, Learnify</p>
-        <footer>
+		<div class="footer-item">
+			<h1>Learnify</h1>
+		</div>
+		<div class="copyright">Copyright &copy; 2022 Learnify </div>
+	</footer>
 
         `;
     }

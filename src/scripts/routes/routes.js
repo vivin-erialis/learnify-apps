@@ -12,17 +12,17 @@ import Pertanian from "../views/pages/pertanian";
 // import Favorite from "../views/pages/favorite";
 
 const routes = {
- '/': Dashboard,
-  '/dashboard': Dashboard,
-  '/bisnis': Bisnis,
-  '/ilkom': Ilkom,
-  '/investasi': Investasi,
-  '/kerajinan': Kerajinan,
-  '/kesehatan': Kesehatan,
-  '/memasak': Memasak,
-  '/olahraga': Olahraga,
-  '/pertanian': Pertanian,
-//   '/favorite': Favorite,
+  "/": Dashboard,
+  "/dashboard": Dashboard,
+  "/bisnis": Bisnis,
+  "/ilkom": Ilkom,
+  "/investasi": Investasi,
+  "/kerajinan": Kerajinan,
+  "/kesehatan": Kesehatan,
+  "/memasak": Memasak,
+  "/olahraga": Olahraga,
+  "/pertanian": Pertanian,
+  //   '/favorite': Favorite,
 };
 
 export default routes;

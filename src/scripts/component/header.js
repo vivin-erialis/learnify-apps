@@ -144,6 +144,7 @@ class HeaderApp extends HTMLElement {
                 <li class="nav-item"><a href="/">HOME</a></li>
                 <li class="nav-item"><a href="#dashboard">DASHBOARD</a></li>
                 <li class="nav-item"><a href="#about">ABOUT</a></li>
+                
                 <div class="dropdown nav-item">
                   <button class="dropdown-button">MODUL</button>
                   <div class="dropdown-content">
@@ -156,6 +157,7 @@ class HeaderApp extends HTMLElement {
                   <a href="#/memasak">Memasak</a>
                   <a href="#/olahraga">Olahraga</a>
                   <a href="#/pertanian">Pertanian</a>
+
                   
                   </div>
                   </div>
