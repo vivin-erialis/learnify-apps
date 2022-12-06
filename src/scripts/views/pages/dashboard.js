@@ -1,6 +1,6 @@
 import TheModulSource from "../../data/themodul-source";
 import { DashboardListItem } from "../templates/template-creator";
-import dashboard from '../../data/dashboard.json';
+import dashboard from '../../data/Data.json';
 import bisnis from '../../data/bisnis.json';
 import '../../component/landing-page';
 import '../../component/about';

@@ -1,6 +1,6 @@
 import TheModulSource from "../../data/themodul-source";
 import { DashboardListItem } from "../templates/template-creator";
-import bisnis from '../../data/bisnis.json';
+import dashboard from '../../data/Data.json';
 
 const Bisnis = {
     async render() {
@@ -61,16 +61,44 @@ const Bisnis = {
       async afterRender() {
         // const dash = await TheModulSource.ModulDashboard();
         const bisnisId = document.querySelector('#module');
-        bisnis.bisnis.forEach((bisnis) => {
-          bisnisId.innerHTML += ` <article class="module-item">
+        // const datas =JSON.stringify(dashboard);
+        // console.log(datas);
+        // datas.dashboard.forEach((bisnis,i) => {
+        //     bisnisId.innerHTML += ` <article class="module-item">
+        //       <div class="module-item-picture">
+        //           <img src="${bisnis.pictureId}" alt="Picture">
+        //       </div>
+        //       <div class="container">
+        //       <h2 class="title"><a href="#">${bisnis.title}</a></h2>
+        //       <p class="headline">${bisnis.headline}</p>
+        //       </div>
+        //   </article>`;
+        //   });
+        dashboard.dashboard.map((datas) => {
+        //     console.log(datas);
+        //     // bisnisId.innerHTML += `
+        //     // <article class="module-item">
+        //     // <div class="module-item-picture">
+        //     //     <img src="${datas.pictureId}" alt="Picture">
+        //     // </div>
+        //     // <div class="container">
+        //     // <h2 class="title"><a href="#">${datas.title}</a></h2>
+        //     // <p class="headline">${datas.headline}</p>
+        //     // </div>
+        //     // </article>
+        //     // `;
+          bisnisId.innerHTML +=  
+          `${datas.bisnis.map((bis) => 
+            // console.log(bis)
+            `<article class="module-item">
             <div class="module-item-picture">
-                <img src="${bisnis.pictureId}" alt="Picture">
+                <img src="${bis.pictureId}" alt="Picture">
             </div>
             <div class="container">
-            <h2 class="title"><a href="#">${bisnis.title}</a></h2>
-            <p class="headline">${bisnis.headline}</p>
+            <h2 class="title"><a href="#">${bis.title}</a></h2>
+            <p class="headline">${bis.headline}</p>
             </div>
-        </article>`;
+         `).join('</article>')}`;
         });
 
 
