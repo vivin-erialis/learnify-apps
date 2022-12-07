@@ -3,6 +3,38 @@ import bisnis from '../../data/bisnis.json';
 const Bisnis = {
     async render() {
             return ` 
+<<<<<<< Updated upstream
+=======
+            <style>
+            .module {
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+                
+            }
+        
+            .module-item {
+                background-color: #B1D0E0;
+                margin: 20px;
+                box-shadow: 0 2px 4px 0 #1A374D;
+                border-radius: 10px;
+            }
+        
+            .title a{
+                color: black;
+                text-decoration: none;
+                color: #1A374D;
+                font-size: 20px;
+            } 
+            .container {
+                padding: 10px;
+            }
+            .module-item-picture img {
+                width: 100%;
+                border-radius: 10px 10px 0px 0px;
+            }
+    
+        </style>
+>>>>>>> Stashed changes
         <section class="content-section">
             <img class="picture-page" src="../images/bisnis.jpg">
             <h1 class="dash-tagline">BISNIS</h1><hr>

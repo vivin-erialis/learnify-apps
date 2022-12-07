@@ -67,25 +67,25 @@ class AboutPage extends HTMLElement {
       <h1 class="dash-tagline">ABOUT US</h1><hr>
       <div class="content-profile" id="about">
           <div class="profile">
-            <img class="logo" src="../images/ikon.jfif">
+            <img class="logo" src="../images/wahyu.jpg">
             <h4 class="tagline-profile">Dicoding</h4>
             <h3 class="tagline-profile">Wahyu Hadi Prabowo</h3>
           </div>
 
           <div class="profile">
-            <img class="logo" src="../images/ikon.jfif">
+            <img class="logo" src="../images/vivin.jpg">
             <h4 class="tagline-profile">Dicoding</h4>
             <h3 class="tagline-profile">Vivin Erialis Puteri</h3>
           </div>
 
           <div class="profile">
-            <img class="logo" src="../images/ikon.jfif"> 
+            <img class="logo" src="../images/viola.jpg"> 
             <h4 class="tagline-profile">Dicoding</h4>
             <h3 class="tagline-profile">Viola Yosevi</h3>
           </div>
 
           <div class="profile">
-            <img class="logo" src="../images/ikon.jfif">
+            <img class="logo" src="../images/logo.png">
             <h4 class="tagline-profile">Dicoding</h4>
             <h3 class="tagline-profile">Fanda Alfaridzi</h3>
           </div>
