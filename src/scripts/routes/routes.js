@@ -6,8 +6,8 @@ import Kerajinan from "../views/pages/kerajinan";
 import Kesehatan from "../views/pages/kesehatan";
 import Memasak from "../views/pages/memasak";
 import Olahraga from "../views/pages/olahraga";
-import Pertanian from "../views/pages/pertanian";
-import Details from "../views/pages/details";
+import Pertanian from "../views/pages/pertanian"; 
+// import Details from "../views/pages/details";
 // import '../component/bisnis';
 // import Detail from "../views/pages/detail";
 // import Favorite from "../views/pages/favorite";
@@ -23,7 +23,7 @@ const routes = {
   "/memasak": Memasak,
   "/olahraga": Olahraga,
   "/pertanian": Pertanian,
-  "/details": Details
+  // "/details": Details
   //   '/favorite': Favorite,
 };
 
