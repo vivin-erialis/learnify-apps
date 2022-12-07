@@ -2,7 +2,41 @@ import ilkom from '../../data/ilkom.json';
 
 const Ilkom = {
     async render() {
+<<<<<<< Updated upstream
             return ` 
+=======
+            return ` <style>
+            .module {
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+                background-color: #6998AB;
+            }
+            .module-item {
+                background-color: #B1D0E0;
+                margin: 20px;
+                box-shadow: 0 2px 4px 0 #1A374D;
+                border-radius: 10px;
+            }
+            .title a{
+                color: black;
+                text-decoration: none;
+                color: #1A374D;
+                font-size: 20px;
+            } 
+            .container {
+                padding: 10px;
+            }
+            .module-item-picture img {
+                width: 100%;
+                border-radius: 10px 10px 0px 0px;
+            }
+            .headline {
+                margin-top: 20px;
+                font-size: 13px;
+            }
+
+        </style>
+>>>>>>> Stashed changes
         <section class="content-section">
         <img class="picture-page" src="../images/ilkom.jpg">
         <h1 class="dash-tagline">ILMU KOMPUTER</h1><hr>
