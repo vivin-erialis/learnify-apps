@@ -1,4 +1,5 @@
-const coba = [
+{
+    "dashboard": [
     {
         "id": "1",
         "title": "Bisnis",
@@ -690,3 +691,4 @@ const coba = [
         ]
     }
 ]
+}
