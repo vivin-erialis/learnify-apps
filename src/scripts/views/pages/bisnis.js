@@ -3,11 +3,6 @@ import bisnis from '../../data/bisnis.json';
 const Bisnis = {
     async render() {
             return ` 
-            <style>
-            
-            
-    
-        </style>
         <section class="content-section">
             <img class="picture-page" src="../images/bisnis.jpg">
             <h1 class="dash-tagline">BISNIS</h1><hr>
