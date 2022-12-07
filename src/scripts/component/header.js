@@ -163,6 +163,7 @@ class HeaderApp extends HTMLElement {
                   <a href="#/memasak">Memasak</a>
                   <a href="#/olahraga">Olahraga</a>
                   <a href="#/pertanian">Pertanian</a>
+                  <a href="#/details">details</a>
 
                   
                   </div>

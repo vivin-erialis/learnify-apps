@@ -6,6 +6,11 @@ class LandingPage extends HTMLElement {
     render() {
         this.innerHTML = `
         <style>
+        .content-section2 {
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            
+        }
         .logo {
             width: 100%;
         }
@@ -86,16 +91,8 @@ class LandingPage extends HTMLElement {
             }
 
         }
-
         
-        @media screen and (min-width: 700px) {
-            .content-section2 {
-                display:grid;
-                grid-template-columns: 1fr 1fr;
-                align-items:center;
-                margin-top:20px;
-            }
-
+        @media screen and (max-width: 700px) {
             .landing-page h1{
                 font-size: 20px;
             }
@@ -115,16 +112,10 @@ class LandingPage extends HTMLElement {
             .landing-page button{
                 font-size: 10px;
             }
+            
         }
         
-        @media screen and (min-width: 300px) {
-            .content-section2 {
-                display:grid;
-                grid-template-columns: 1fr;
-                align-items:center;
-                margin-top:20px;
-            }
-
+        @media screen and (max-width: 300px) {
             .landing-page h1{
                 font-size: 20px;
             }
@@ -144,8 +135,13 @@ class LandingPage extends HTMLElement {
             .landing-page button{
                 font-size: 10px;
             }
+            .content-section2 {
+                display:grid;
+                grid-template-columns: 1fr ;
+                
+            }
         }
-        
+    
         </style>
          <section class="content-section2">
             <article>

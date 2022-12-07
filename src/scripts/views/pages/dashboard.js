@@ -31,7 +31,7 @@ const Dashboard = {
             .module-item-picture img {
                 width: 100%;
                 border-radius: 10px 10px 0px 0px;
-                height:200px;
+                :200px;
             }
             .headline {
                 margin-top: 20px;
@@ -46,7 +46,6 @@ const Dashboard = {
 
                 .module-item-picture img {
                     width: 100%;
-                    height:150px;
                 }
 
                 .title a{
@@ -62,7 +61,6 @@ const Dashboard = {
 
                 .module-item-picture img {
                     width: 100%;
-                    height:150px;
                 }
 
                 .title a{
@@ -81,7 +79,6 @@ const Dashboard = {
 
                 .module-item-picture img {
                     width: 100%;
-                    height:110px;
                 }
 
                 .dash-tagline {

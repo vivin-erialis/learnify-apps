@@ -14,9 +14,20 @@ class FooterApp extends HTMLElement {
 		}
 
 		footer h1{
-			padding: 50px;
+			padding: 50px 50px 20px 50px;
 			margin: 0 auto;
 			text-align: center;
+		}
+
+		footer p{
+			text-align:center;
+		}
+
+		.footer-item{
+			text-align:center;
+		}
+		a{
+			text-decoration:none;
 		}
 
 		footer .copyright{
@@ -28,6 +39,9 @@ class FooterApp extends HTMLElement {
         <footer>
 		<div class="footer-item">
 			<h1>Learnify</h1>
+			<p>PT Dicoding Academy Indonesia</p>
+			<a href="https://www.dicoding.com/" >Dicoding</a>
+			<a href="https://www.instagram.com/dicoding/">Instagram</a> 
 		</div>
 		<div class="copyright">Copyright &copy; 2022 Learnify </div>
 	</footer>

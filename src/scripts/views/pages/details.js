@@ -1,6 +1,6 @@
 import bisnis from '../../data/bisnis.json';
 
-const Bisnis = {
+export default Details = {
     async render() {
             return ` 
             <style>
@@ -36,5 +36,3 @@ const Bisnis = {
 
       },
 }
-
-export default Bisnis;
