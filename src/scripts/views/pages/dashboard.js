@@ -106,15 +106,9 @@ const Dashboard = {
         const dashId = document.querySelector('#module');
         dashboard.dashboard.forEach((dashboards) => {
           dashId.innerHTML += `
-<<<<<<< Updated upstream
             <article class="module-item" data-aos="fade-left">
-                <div class="module-item-picture">
-                    <img src="${dashboards.pictureId}" alt="Picture">
-=======
-            <article class="module-item">
                 <div class="module-item-video">
-                    <video src="${dashboards.videoId}"></video>
->>>>>>> Stashed changes
+                    <video src="${dashboards.videoId}" autoplay></video>
                 </div>
                 <div class="container">
                 <h2 class="title"><a href">${dashboards.title}</a></h2>

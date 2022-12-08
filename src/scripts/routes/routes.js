@@ -15,9 +15,7 @@ import DetailKesehatan from "../views/pages/detailKesehatan";
 import DetailMemasak from "../views/pages/detailMemasak";
 import DetailOlahraga from "../views/pages/detailOlahraga";
 import DetailPertanian from "../views/pages/detailPertanian";
-// import '../component/bisnis';
-import DetailBisnis from "../views/pages/detailBisnis";
-// import Favorite from "../views/pages/favorite";
+
 
 const routes = {
   "/": Dashboard,
@@ -30,7 +28,6 @@ const routes = {
   "/memasak": Memasak,
   "/olahraga": Olahraga,
   "/pertanian": Pertanian,
-<<<<<<< Updated upstream
   "/detail/:id" : DetailBisnis,
   "/detailkom/:id" : DetailIlkom,
   "/detailinv/:id" : DetailInvestasi,
@@ -39,11 +36,7 @@ const routes = {
   "/detailmemasak/:id" : DetailMemasak,
   "/detailolahraga/:id" : DetailOlahraga,
   "/detailpertanian/:id" : DetailPertanian,
-=======
   "/detailBisnis/:id": DetailBisnis,
-  
->>>>>>> Stashed changes
-  //   '/favorite': Favorite,
 };
 
 export default routes;

@@ -1,8 +1,6 @@
 import bisnis from '../../data/bisnis.json';
-<<<<<<< Updated upstream
 import UrlParser from '../../routes/url-parser';
-=======
->>>>>>> Stashed changes
+
 
 const DetailBisnis = {
     async render() {
@@ -14,7 +12,6 @@ const DetailBisnis = {
       },
     
       async afterRender() {
-<<<<<<< Updated upstream
         const url = UrlParser.parseActiveUrlWithoutCombiner();
         const { id } = url;
         const bisnisElement = document.querySelector('#details');
@@ -35,22 +32,6 @@ const DetailBisnis = {
         };
         detailBisnis();
         },
-=======
-        const bisnisId = document.querySelector('#details');
-        bisnis.bisnis.forEach((bisnis)=>
-        bisnisId.innerHTML = ` 
-          <article class="module-item">
-            <div class="module-item-picture">
-                <img src="${bisnis.pictureId}" alt="Picture">
-            </div>
-            <div class="container">
-            <h2 class="title"><a href="#">${bisnis.title}</a></h2>
-            <p class="headline">${bisnis.description}</p>
-            </div>
-         </article>`
-)        },
-      
->>>>>>> Stashed changes
 
       };
       
