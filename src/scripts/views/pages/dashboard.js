@@ -1,15 +1,10 @@
-import dashboard from '../../data/dashboard.json';
+import dashboard from '../../data/video.json';
 import '../../component/landing-page';
 import '../../component/about';
 
 const Dashboard = {
     async render() {
             return ` <style>
-            .module {
-                display: grid;
-                grid-template-columns: repeat(4,1fr);
-                background-color: #6998AB;
-            }
             .module-item {
                 background-color: #B1D0E0;
                 margin: 20px;
@@ -28,10 +23,9 @@ const Dashboard = {
             .container {
                 padding: 10px;
             }
-            .module-item-picture img {
+            .module-item-video video {
                 width: 100%;
                 border-radius: 10px 10px 0px 0px;
-                height:200px;
             }
             .headline {
                 margin-top: 20px;
@@ -44,7 +38,7 @@ const Dashboard = {
                     grid-template-columns: 1fr 1fr 1fr;
                 }
 
-                .module-item-picture img {
+                .module-item-video video {
                     width: 100%;
                     height:150px;
                 }
@@ -60,7 +54,7 @@ const Dashboard = {
                     grid-template-columns: 1fr 1fr;
                 }
 
-                .module-item-picture img {
+                .module-item-video video {
                     width: 100%;
                     height:150px;
                 }
@@ -79,13 +73,13 @@ const Dashboard = {
                     grid-template-columns: 1fr;
                 }
 
-                .module-item-picture img {
+                .module-item-video video {
                     width: 100%;
                     height:110px;
                 }
 
-                .dash-tagline {
-                    font-size: 20px;
+                .title {
+                    font-size: 12px;
                 }
             } 
 
@@ -112,9 +106,15 @@ const Dashboard = {
         const dashId = document.querySelector('#module');
         dashboard.dashboard.forEach((dashboards) => {
           dashId.innerHTML += `
+<<<<<<< Updated upstream
             <article class="module-item" data-aos="fade-left">
                 <div class="module-item-picture">
                     <img src="${dashboards.pictureId}" alt="Picture">
+=======
+            <article class="module-item">
+                <div class="module-item-video">
+                    <video src="${dashboards.videoId}"></video>
+>>>>>>> Stashed changes
                 </div>
                 <div class="container">
                 <h2 class="title"><a href">${dashboards.title}</a></h2>

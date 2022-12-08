@@ -1,0 +1,41 @@
+{
+    "dashboard": [
+        {
+            "id" : "1",
+            "title":"Cara Menjadi seorang Chef",
+            "headline":"Chef adalah juru masak profesional terlatih yang ahli dalam semua aspek pengolahan makanan dan biasanya fokus pada kuliner tertentu",
+            "videoId" : "https://firebasestorage.googleapis.com/v0/b/learnyfy-d1bf7.appspot.com/o/Konten%2FCara%20Menjadi%20seorang%20chef.mp4?alt=media&token=04a25121-6ce0-46a3-8674-cadfe13a9a11"
+        },
+        {
+            "id": "2",
+            "title":"Fundamental Saham",
+            "headline":"Saham (stock) merupakan salah satu instrumen pasar keuangan yang paling popular. Menerbitkan saham merupakan salah satu pilihan perusahaan ketika memutuskan untuk pendanaan perusahaan.",
+            "videoId": "https://firebasestorage.googleapis.com/v0/b/learnyfy-d1bf7.appspot.com/o/Konten%2FFundamental%20saham.mp4?alt=media&token=5457157a-18fe-4db2-972e-2c23f193c6a8"
+        },
+        {
+            "id": "3",
+            "title":"Kemajuan Teknologi di Masa Depan",
+            "headline":"Perkembangan teknologi terus berkembang pesat, inovasinya juga disesuaikan dengan kebutuhan manusia untuk mempermudah kehidupan.",
+            "videoId": "https://firebasestorage.googleapis.com/v0/b/learnyfy-d1bf7.appspot.com/o/Konten%2FKemajuan%20Teknologi%20di%20masa%20depan.mp4?alt=media&token=82c94e72-8703-42e2-9afd-b4e53a1cf8c5"
+        },
+        {
+            "id": "4",
+            "title":"Pentingnya Menjaga Kesehatan mental",
+            "headline":"Kesehatan mental yang baik adalah kondisi ketika batin kita berada dalam keadaan tentram dan tenang, sehingga memungkinkan kita untuk menikmati kehidupan sehari-hari dan menghargai orang lain di sekitar.",
+            "videoId": "https://firebasestorage.googleapis.com/v0/b/learnyfy-d1bf7.appspot.com/o/Konten%2FPentingnya%20menjaga%20kesehatan%20mental.mp4?alt=media&token=8d676574-60c4-4362-9fee-f0b125034cc3"
+        },
+        {
+            "id": "5",
+            "title":"Perbandingan Teknologi masalalu dan saat ini",
+            "headline":"Teknologi masa lalu lebih sederhana dan hasilnya pun terbatas. Teknologi masa kini biasanya menggunakan mesin yang memudahkan pekerjaan manusia.",
+            "videoId": "https://firebasestorage.googleapis.com/v0/b/learnyfy-d1bf7.appspot.com/o/Konten%2FPerkembangan%20Teknologi.mp4?alt=media&token=5e04a8f0-8b84-41e9-b349-b3f0bb00a0af"
+        },
+        {
+            "id": "6",
+            "title":"Cara Menjaga Tubuh jasmani Tetap Sehat",
+            "headline":"Pola hidup sehat adalah suatu keadaan dimana mental, fisik dan kesejahteraan sosial terjaga dengan stabil, bukan hanya ketiadaan penyakit pada diri manusia saja.",
+            "videoId": "https://firebasestorage.googleapis.com/v0/b/learnyfy-d1bf7.appspot.com/o/Konten%2Fcara%20menjaga%20tubuh%20tetap%20sehat.mp4?alt=media&token=655fc59f-d6bf-4b66-b2d5-aa557f436b07"
+        }
+
+    ]
+}

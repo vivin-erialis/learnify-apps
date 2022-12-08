@@ -5,6 +5,7 @@ import './component/footer.js';
 import '../styles/main.css';
 import '../styles/responsive.css';
 import App from './views/app';
+import './component/search-bar.js'
 import swRegister from './utils/sw-register';
 
 const nav = document.querySelector("nav")

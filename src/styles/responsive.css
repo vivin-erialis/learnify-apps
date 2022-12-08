@@ -8,6 +8,25 @@
     .dash-tagline {
         font-size: 25px;
     }
+
+    .headline {
+        font-size: 11px;
+    }
+
+    .title a{
+        font-size: 15px;
+    }  
+    
+}
+
+@media screen and (max-width: 650px) {
+    .headline {
+        font-size: 10px;
+    }
+
+    .title a{
+        font-size: 11px;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -17,6 +36,10 @@
     }
     .headline {
         font-size: 12px;;
+    }
+
+    .title a{
+        font-size: 16px;;
     }
 
 }

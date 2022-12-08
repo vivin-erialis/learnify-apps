@@ -15,19 +15,19 @@ class LandingPage extends HTMLElement {
             width: 100%;
         }
         .landing-page {
-            margin: 80px;
+            margin: auto 80px;
         }
         
         .tagline {
             margin-bottom: 10px;
-            font-size: 50px;
+            font-size: 35px;
         }
 
         .landing-page h1 {
             text-align: left;
         }
         .landing-page p{
-            font-size: 16px;
+            font-size: 14px;
         }
 
         .btn-start {
