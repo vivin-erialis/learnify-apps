@@ -112,7 +112,7 @@ const Dashboard = {
         const dashId = document.querySelector('#module');
         dashboard.dashboard.forEach((dashboards) => {
           dashId.innerHTML += `
-            <article class="module-item">
+            <article class="module-item" data-aos="fade-left">
                 <div class="module-item-picture">
                     <img src="${dashboards.pictureId}" alt="Picture">
                 </div>
