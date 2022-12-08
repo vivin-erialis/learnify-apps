@@ -7,6 +7,8 @@ const DetailBisnis = {
         <section id="details">
             
         </section>
+
+        <section id="feedback"></section> 
         `;
       },
     
@@ -31,7 +33,6 @@ const DetailBisnis = {
         };
         detailBisnis();
         },
-
 
       };
 

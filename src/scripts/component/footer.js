@@ -26,8 +26,15 @@ class FooterApp extends HTMLElement {
 		.footer-item{
 			text-align:center;
 		}
+		
 		a{
 			text-decoration:none;
+		}
+
+		.footer-item img{
+			margin:5px;
+			width:1.8%;
+
 		}
 
 		footer .copyright{
@@ -40,8 +47,10 @@ class FooterApp extends HTMLElement {
 		<div class="footer-item">
 			<h1>Learnify</h1>
 			<p>PT Dicoding Academy Indonesia</p>
-			<a href="https://www.dicoding.com/" >Dicoding</a>
-			<a href="https://www.instagram.com/dicoding/">Instagram</a> 
+			<a href="https://www.dicoding.com/" ><img src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png"></a>
+			<a href="https://www.instagram.com/dicoding/" ><img src="./svg/instagram.svg"></a>
+			<a href="https://web.facebook.com/dicoding/"><img src="./svg/facebook.svg"></a> 
+			<a href="https://www.youtube.com/@DicodingIndonesia"><img src="./svg/youtube.svg"></a>
 		</div>
 		<div class="copyright">Copyright &copy; 2022 Learnify </div>
 	</footer>

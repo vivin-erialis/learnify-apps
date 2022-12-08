@@ -65,26 +65,26 @@ class AboutPage extends HTMLElement {
 
       </style>
       <h1 class="dash-tagline">ABOUT US</h1><hr>
-      <div class="content-profile" id="about">
-          <div class="profile">
+      <div class="content-profile" id="about" >
+          <div class="profile" data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-delay="300" data-aos-duration="1500">
             <img class="logo" src="../images/wahyu.jpg">
             <h4 class="tagline-profile">Dicoding</h4>
             <h3 class="tagline-profile">Wahyu Hadi Prabowo</h3>
           </div>
 
-          <div class="profile">
+          <div class="profile" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="300" data-aos-duration="1500">
             <img class="logo" src="../images/vivin.jpg">
             <h4 class="tagline-profile">Dicoding</h4>
             <h3 class="tagline-profile">Vivin Erialis Puteri</h3>
           </div>
 
-          <div class="profile">
+          <div class="profile" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="300" data-aos-duration="1500">
             <img class="logo" src="../images/viola.jpg"> 
             <h4 class="tagline-profile">Dicoding</h4>
             <h3 class="tagline-profile">Viola Yosevi</h3>
           </div>
 
-          <div class="profile">
+          <div class="profile" data-aos="fade-left" data-aos-anchor-placement="center-bottom" data-aos-delay="300" data-aos-duration="1500">
             <img class="logo" src="../images/logo.png">
             <h4 class="tagline-profile">Dicoding</h4>
             <h3 class="tagline-profile">Fanda Alfaridzi</h3>

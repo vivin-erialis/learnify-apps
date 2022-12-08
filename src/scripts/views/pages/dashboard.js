@@ -31,7 +31,7 @@ const Dashboard = {
             .module-item-picture img {
                 width: 100%;
                 border-radius: 10px 10px 0px 0px;
-                :200px;
+                height:200px;
             }
             .headline {
                 margin-top: 20px;
@@ -46,6 +46,7 @@ const Dashboard = {
 
                 .module-item-picture img {
                     width: 100%;
+                    height:150px;
                 }
 
                 .title a{
@@ -61,6 +62,7 @@ const Dashboard = {
 
                 .module-item-picture img {
                     width: 100%;
+                    height:150px;
                 }
 
                 .title a{
@@ -79,6 +81,7 @@ const Dashboard = {
 
                 .module-item-picture img {
                     width: 100%;
+                    height:110px;
                 }
 
                 .dash-tagline {
@@ -109,12 +112,12 @@ const Dashboard = {
         const dashId = document.querySelector('#module');
         dashboard.dashboard.forEach((dashboards) => {
           dashId.innerHTML += `
-            <article class="module-item">
+            <article class="module-item" data-aos="fade-left">
                 <div class="module-item-picture">
                     <img src="${dashboards.pictureId}" alt="Picture">
                 </div>
                 <div class="container">
-                <h2 class="title"><a href="#">${dashboards.title}</a></h2>
+                <h2 class="title"><a href">${dashboards.title}</a></h2>
                 </div>
             </article>
             `;
