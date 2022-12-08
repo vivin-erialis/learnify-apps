@@ -21,7 +21,7 @@ const Kerajinan = {
                 <img src="${kerajinan.pictureId}" alt="Picture">
             </div>
             <div class="container">
-            <h2 class="title"><a href="#">${kerajinan.title}</a></h2>
+            <h2 class="title"><a href="#/detailkerajinan/${kerajinan.id}">${kerajinan.title}</a></h2>
             <p class="headline">${kerajinan.headline}</p>
             </div>
         </article>`;

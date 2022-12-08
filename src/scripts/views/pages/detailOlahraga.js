@@ -1,7 +1,7 @@
-import bisnis from '../../data/bisnis.json';
+import olahraga from '../../data/olahraga.json';
 import UrlParser from '../../routes/url-parser';
 
-const DetailBisnis = {
+const DetailOlahraga = {
     async render() {
       return ` 
         <section id="details">
@@ -13,26 +13,26 @@ const DetailBisnis = {
       async afterRender() {
         const url = UrlParser.parseActiveUrlWithoutCombiner();
         const { id } = url;
-        const bisnisElement = document.querySelector('#details');
-        const detailBisnis = () => {
-          bisnisElement.innerHTML += 
+        const olahragaElement = document.querySelector('#details');
+        const detailOlahraga = () => {
+          olahragaElement.innerHTML += 
             ` <article class="module-item">
                   <div class="container" >
-                    <h2>${bisnis.bisnis[id-1].title}</h2>
-                    <img src="${bisnis.bisnis[id-1].pictureId}">
+                    <h2>${olahraga.olahraga[id-1].title}</h2>
+                    <img src="${olahraga.olahraga[id-1].pictureId}">
                     <div class="description">
-                      <p>${bisnis.bisnis[id-1].description}</p>
+                      <p>${olahraga.olahraga[id-1].description}</p>
                     </div>
                     <div class="specification"><br>
-                      ${bisnis.bisnis[id-1].specific.join('<br>')}
+                      ${olahraga.olahraga[id-1].specific.join('<br>')}
                     </div>
                   </div>
         </article>`
         };
-        detailBisnis();
+        detailOlahraga();
         },
 
 
       };
 
-export default DetailBisnis;
+export default DetailOlahraga;

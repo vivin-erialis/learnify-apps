@@ -7,6 +7,14 @@ import Kesehatan from "../views/pages/kesehatan";
 import Memasak from "../views/pages/memasak";
 import Olahraga from "../views/pages/olahraga";
 import Pertanian from "../views/pages/pertanian"; 
+import DetailBisnis from "../views/pages/detailBisnis";
+import DetailIlkom from "../views/pages/detailIlkom";
+import DetailInvestasi from "../views/pages/detailInvestasi";
+import DetailKerajinan from "../views/pages/detailKerajinan";
+import DetailKesehatan from "../views/pages/detailKesehatan";
+import DetailMemasak from "../views/pages/detailMemasak";
+import DetailOlahraga from "../views/pages/detailOlahraga";
+import DetailPertanian from "../views/pages/detailPertanian";
 // import '../component/bisnis';
 // import Detail from "../views/pages/detail";
 // import Favorite from "../views/pages/favorite";
@@ -22,6 +30,14 @@ const routes = {
   "/memasak": Memasak,
   "/olahraga": Olahraga,
   "/pertanian": Pertanian,
+  "/detail/:id" : DetailBisnis,
+  "/detailkom/:id" : DetailIlkom,
+  "/detailinv/:id" : DetailInvestasi,
+  "/detailkerajinan/:id" : DetailKerajinan,
+  "/detailkesehatan/:id" : DetailKesehatan,
+  "/detailmemasak/:id" : DetailMemasak,
+  "/detailolahraga/:id" : DetailOlahraga,
+  "/detailpertanian/:id" : DetailPertanian,
   //   '/favorite': Favorite,
 };
 

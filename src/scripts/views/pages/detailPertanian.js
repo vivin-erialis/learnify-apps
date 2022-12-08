@@ -1,7 +1,7 @@
-import bisnis from '../../data/bisnis.json';
+import pertanian from '../../data/pertanian.json';
 import UrlParser from '../../routes/url-parser';
 
-const DetailBisnis = {
+const DetailPertanian = {
     async render() {
       return ` 
         <section id="details">
@@ -13,26 +13,26 @@ const DetailBisnis = {
       async afterRender() {
         const url = UrlParser.parseActiveUrlWithoutCombiner();
         const { id } = url;
-        const bisnisElement = document.querySelector('#details');
-        const detailBisnis = () => {
-          bisnisElement.innerHTML += 
+        const pertanianElement = document.querySelector('#details');
+        const detailPertanian = () => {
+          pertanianElement.innerHTML += 
             ` <article class="module-item">
                   <div class="container" >
-                    <h2>${bisnis.bisnis[id-1].title}</h2>
-                    <img src="${bisnis.bisnis[id-1].pictureId}">
+                    <h2>${pertanian.pertanian[id-1].title}</h2>
+                    <img src="${pertanian.pertanian[id-1].pictureId}">
                     <div class="description">
-                      <p>${bisnis.bisnis[id-1].description}</p>
+                      <p>${pertanian.pertanian[id-1].description}</p>
                     </div>
                     <div class="specification"><br>
-                      ${bisnis.bisnis[id-1].specific.join('<br>')}
+                      ${pertanian.pertanian[id-1].specific.join('<br>')}
                     </div>
                   </div>
         </article>`
         };
-        detailBisnis();
+        detailPertanian();
         },
 
 
       };
 
-export default DetailBisnis;
+export default DetailPertanian;

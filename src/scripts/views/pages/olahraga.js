@@ -21,7 +21,7 @@ const Olahraga = {
                 <img src="${olahraga.pictureId}" alt="Picture">
             </div>
             <div class="container">
-            <h2 class="title"><a href="#">${olahraga.title}</a></h2>
+            <h2 class="title"><a href="#/detailolahraga/${olahraga.id}">${olahraga.title}</a></h2>
             <p class="headline">${olahraga.headline}</p>
             </div>
         </article>`;
