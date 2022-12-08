@@ -22,6 +22,8 @@ class AboutPage extends HTMLElement {
             box-shadow: 0 4px 8px 0 #6998AB;
             border-radius: 5px;
             text-align: center;
+            position: relative;
+
         }
         
         .tagline-profile{

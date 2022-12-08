@@ -21,7 +21,7 @@ class SearchBar extends HTMLElement {
     this.shadowDOM.innerHTML = `
     <style>
       .search-container {
-        max-width: 50%;
+        max-width: 100%;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         padding: 7px;
         border-radius: 5px;
@@ -30,12 +30,15 @@ class SearchBar extends HTMLElement {
         top: 10px;
         background-color: white;
       }
+
+      img {
+        width: 60%;
+      }
       
       .search-container > input {
-        width: 75%;
+        width: 20%;
         padding: 10px;
         border: 0;
-
         font-weight: bold;
       }
       
@@ -83,7 +86,9 @@ class SearchBar extends HTMLElement {
       </style>
       <div id="search-container" class="search-container">
         <input placeholder="Search..." id="searchElement" type="search">
-        <button id="searchButtonElement" type="submit">Search</button>
+        <button id="searchButtonElement" type="submit">
+          <img src="./svg/search.svg">
+        </button>
       </div>
     `;
  

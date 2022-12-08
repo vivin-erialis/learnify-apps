@@ -15,7 +15,7 @@ class HeaderApp extends HTMLElement {
       nav {
         position: fixed;
         display: grid;
-        grid-template-columns: 0.5fr 1.5fr;
+        grid-template-columns: 1fr 0.5fr 1.5fr;
         left: 0;
         top: 0;
         width: 100%;
@@ -145,6 +145,7 @@ class HeaderApp extends HTMLElement {
       <div class="header">            
             <nav id="drawerNavigation" class="navbar">
               <h1 class="name-apps">LEARNIFY</h1>
+              <search-bar></search-bar>
               <a href="#" id="hamburgerMenu" class="header-menu" aria-label="navigation-menu">☰</a>  
               <ul class="nav-list open">
                 <li class="nav-item"><a href="/">HOME</a></li>
