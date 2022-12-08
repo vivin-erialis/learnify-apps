@@ -1,13 +1,8 @@
 import bisnis from '../../data/bisnis.json';
 
-export default Details = {
+const Details = {
     async render() {
             return ` 
-            <style>
-            
-            
-    
-        </style>
         <section class="content-section">
             <img class="picture-page" src="../images/bisnis.jpg">
             <h1 class="dash-tagline">BISNIS</h1><hr>
@@ -20,8 +15,7 @@ export default Details = {
       async afterRender() {
         // const dash = await TheModulSource.ModulDashboard();
         const bisnisId = document.querySelector('#module');
-        bisnis.bisnis.forEach((bisnis) => {
-          bisnisId.innerHTML += ` 
+        bisnis.bisnis.bisnisId.innerHTML += ` 
           <article class="module-item">
             <div class="module-item-picture">
                 <img src="${bisnis.pictureId}" alt="Picture">
@@ -31,8 +25,9 @@ export default Details = {
             <p class="headline">${bisnis.headline}</p>
             </div>
          </article>`;
-        });
 
 
       },
 }
+
+export default Details;

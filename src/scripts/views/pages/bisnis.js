@@ -1,4 +1,5 @@
 import bisnis from '../../data/bisnis.json';
+import { DetailTemplate } from '../templates/template-creator';
 
 const Bisnis = {
     async render() {
@@ -13,20 +14,32 @@ const Bisnis = {
       },
     
       async afterRender() {
+        const dataBisnis = bisnis;
         const bisnisId = document.querySelector('#module');
-        bisnis.bisnis.forEach((bisnis) => {
-          bisnisId.innerHTML += ` 
-          <article class="module-item">
+        dataBisnis.bisnis.map((bisnis) => {
+          bisnisId.innerHTML += 
+            ` <article class="module-item">
             <div class="module-item-picture">
                 <img src="${bisnis.pictureId}" alt="Picture">
             </div>
             <div class="container">
-            <h2 class="title"><a href="#">${bisnis.title}</a></h2>
+            <h2 class="title"><a href="#/detailBisnis/${bisnis.id}">${bisnis.title}</a></h2>
             <p class="headline">${bisnis.headline}</p>
             </div>
-         </article>`;
+        </article>`;
         });
-
+        // bisnisId.innerHTML = dataBisnis.bisnis.fill(bisnis => {
+        //           ` <article class="module-item">
+        //     <div class="module-item-picture">
+        //         <img src="${bisnis.pictureId}" alt="Picture">
+        //     </div>
+        //     <div class="container">
+        //     <h2 class="title"><a href="#/detailBisnis/${bisnis.id}">${bisnis.title}</a></h2>
+        //     <p class="headline">${bisnis.headline}</p>
+        //     </div>
+        // </article>`
+        // });
+      
 
       },
 }
