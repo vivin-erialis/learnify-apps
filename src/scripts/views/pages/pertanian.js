@@ -21,7 +21,7 @@ const Pertanian = {
                 <img src="${tani.pictureId}" alt="Picture">
             </div>
             <div class="container">
-            <h2 class="title"><a href="#/detailpertanian/${tani.id}">${tani.title}</a></h2>
+            <h2 class="title"><a href="#/pertanian/${tani.id}">${tani.title}</a></h2>
             <p class="headline">${tani.headline}</p>
             </div>
         </article>`;

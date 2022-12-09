@@ -29,14 +29,14 @@ const routes = {
   "/olahraga": Olahraga,
   "/pertanian": Pertanian,
   "/detail/:id" : DetailBisnis,
-  "/detailkom/:id" : DetailIlkom,
-  "/detailinv/:id" : DetailInvestasi,
-  "/detailkerajinan/:id" : DetailKerajinan,
-  "/detailkesehatan/:id" : DetailKesehatan,
-  "/detailmemasak/:id" : DetailMemasak,
-  "/detailolahraga/:id" : DetailOlahraga,
-  "/detailpertanian/:id" : DetailPertanian,
-  "/detailBisnis/:id": DetailBisnis,
+  "/ilkom/:id" : DetailIlkom,
+  "/investasi/:id" : DetailInvestasi,
+  "/kerajinan/:id" : DetailKerajinan,
+  "/kesehatan/:id" : DetailKesehatan,
+  "/memasak/:id" : DetailMemasak,
+  "/olahraga/:id" : DetailOlahraga,
+  "/pertanian/:id" : DetailPertanian,
+  "/bisnis/:id": DetailBisnis,
 };
 
 export default routes;

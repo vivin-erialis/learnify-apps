@@ -21,7 +21,7 @@ const Investasi = {
                 <img src="${investasi.pictureId}" alt="Picture">
             </div>
             <div class="container">
-            <h2 class="title"><a href="#/detailinv/${investasi.id}">${investasi.title}</a></h2>
+            <h2 class="title"><a href="#/investasi/${investasi.id}">${investasi.title}</a></h2>
             <p class="headline">${investasi.headline}</p>
             </div>
         </article>`;

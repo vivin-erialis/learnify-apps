@@ -21,7 +21,7 @@ const Ilkom = {
                 <img src="${ilkom.pictureId}" alt="Picture">
             </div>
             <div class="container">
-            <h2 class="title"><a href="#/detailkom/${ilkom.id}">${ilkom.title}</a></h2>
+            <h2 class="title"><a href="#/ilkom/${ilkom.id}">${ilkom.title}</a></h2>
             <p class="headline">${ilkom.headline}</p>
             </div>
         </article>`;

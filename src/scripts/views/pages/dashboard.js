@@ -108,7 +108,7 @@ const Dashboard = {
           dashId.innerHTML += `
             <article class="module-item">
                 <div class="module-item-video">
-                    <video src="${dashboards.videoId}" autoplay></video>
+                    <video src="${dashboards.videoId}" controls></video>
                 </div>
                 <div class="container">
                 <h2 class="title"><a href">${dashboards.title}</a></h2>

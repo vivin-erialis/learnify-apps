@@ -4,6 +4,16 @@ import UrlParser from '../../routes/url-parser';
 const DetailKesehatan = {
     async render() {
       return ` 
+
+      <style>
+            main {
+                  display: grid;
+                  grid-template-rows: 1fr;
+                  grid-row-gap: 20px;
+                  width: 100%;
+                  margin-bottom: 20px;
+                }
+      </style>
         <section id="details">
             
         </section>
@@ -15,16 +25,14 @@ const DetailKesehatan = {
         const { id } = url;
         const kesehatanElement = document.querySelector('#details');
         const detailKesehatan = () => {
-          kesehatanElement.innerHTML += 
-            ` <article class="module-item">
-                  <div class="container" >
-                    <h2>${kesehatan.kesehatan[id-1].title}</h2>
-                    <img src="${kesehatan.kesehatan[id-1].pictureId}">
-                    <div class="description">
-                      <p>${kesehatan.kesehatan[id-1].description}</p>
-                    </div>
-                  </div>
-        </article>`
+          kesehatanElement.innerHTML += ` <article class="container-detail">
+                      <img src="${kesehatan.kesehatan[id - 1].pictureId}">
+                      <h2>${kesehatan.kesehatan[id - 1].title}</h2>
+                      <hr>
+                      <div class="des">
+                        ${kesehatan.kesehatan[id - 1].description}
+                      </div>
+        </article>`;
         };
         detailKesehatan();
         },
