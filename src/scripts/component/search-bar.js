@@ -23,22 +23,22 @@ class SearchBar extends HTMLElement {
       .search-container {
         max-width: 100%;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        padding: 7px;
         border-radius: 5px;
-        display: flex;
-        margin: 30px auto;
+        display: grid;
+        grid-template-columns:7fr 3fr;
         top: 10px;
+        height:30px;
         background-color: white;
       }
 
       img {
-        width: 60%;
+        width: 20px;
       }
       
       .search-container > input {
-        width: 20%;
-        padding: 10px;
-        border: 0;
+        width: 80%;
+        border:0;
+        border-radius: 5px;
         font-weight: bold;
       }
       
@@ -58,13 +58,13 @@ class SearchBar extends HTMLElement {
       }
       
       .search-container > button {
-        width: 20%;
+        width: 100%;
         cursor: pointer;
-        margin-left: auto;
+        float:left;
         background-color: #406882;
         color: white;
         border: 0;
-        border-radius: 10px;
+        border-radius: 0 5px 5px 0;
         
       }
       
@@ -79,7 +79,7 @@ class SearchBar extends HTMLElement {
           margin-bottom: 12px;
         }
         
-        .search-container > button {
+        .search-container  button {
           width: 100%;
         }
       }

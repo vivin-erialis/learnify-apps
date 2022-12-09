@@ -15,7 +15,7 @@ class HeaderApp extends HTMLElement {
       nav {
         position: fixed;
         display: grid;
-        grid-template-columns: 1fr 0.5fr 1.5fr;
+        grid-template-columns: 2fr 0.5fr 2fr;
         left: 0;
         top: 0;
         width: 100%;
@@ -76,19 +76,25 @@ class HeaderApp extends HTMLElement {
       display: block;
     }
 
-    @media screen and (min-width: 750px) {
+    @media screen and (min-width: 800px) {
       .header-menu {
         display: none;
       }
 
+      nav {
+        position: fixed;
+        display: grid;
+        grid-template-columns: 1fr 0.5fr 0.9fr;
+      }
+
     }
 
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 800px) {
       
       nav {
         position: fixed;
         display: grid;
-        grid-template-columns: 1fr 0.2fr;
+        grid-template-columns: 1fr 0.5fr 0.2fr;
         left: 0;
         top: 0;
         width: 100%;
@@ -99,15 +105,15 @@ class HeaderApp extends HTMLElement {
       }
 
       .nav-list {
-        -webkit-transform: translate(710, 0);
-        transform: translate(710px, 0);
+        -webkit-transform: translate(800px, 0);
+        transform: translate(800px, 0);
         transition: transform 0.5s ease-in;
         background-color: #6998AB;
       }
 
       .open-drawer {
-        -webkit-transform: translate(75%, 0);
-        transform: translate(75%, 0);
+        -webkit-transform: translate(120%, 0);
+        transform: translate(120%, 0);
         margin-top: -15px;
         padding:10px;
         background:#406882;

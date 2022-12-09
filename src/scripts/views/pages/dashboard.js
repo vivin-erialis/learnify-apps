@@ -106,7 +106,7 @@ const Dashboard = {
         const dashId = document.querySelector('#module');
         dashboard.dashboard.forEach((dashboards) => {
           dashId.innerHTML += `
-            <article class="module-item" data-aos="fade-left">
+            <article class="module-item">
                 <div class="module-item-video">
                     <video src="${dashboards.videoId}" autoplay></video>
                 </div>
