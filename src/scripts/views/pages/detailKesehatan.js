@@ -2,8 +2,8 @@ import kesehatan from '../../data/kesehatan.json';
 import UrlParser from '../../routes/url-parser';
 
 const DetailKesehatan = {
-    async render() {
-      return ` 
+  async render() {
+    return ` 
 
       <style>
             main {
@@ -18,14 +18,14 @@ const DetailKesehatan = {
             
         </section>
         `;
-      },
-    
-      async afterRender() {
-        const url = UrlParser.parseActiveUrlWithoutCombiner();
-        const { id } = url;
-        const kesehatanElement = document.querySelector('#details');
-        const detailKesehatan = () => {
-          kesehatanElement.innerHTML += ` <article class="container-detail">
+  },
+
+  async afterRender() {
+    const url = UrlParser.parseActiveUrlWithoutCombiner();
+    const { id } = url;
+    const kesehatanElement = document.querySelector('#details');
+    const detailKesehatan = () => {
+      kesehatanElement.innerHTML += ` <article class="container-detail">
                       <img src="${kesehatan.kesehatan[id - 1].pictureId}">
                       <h2>${kesehatan.kesehatan[id - 1].title}</h2>
                       <hr>
@@ -33,11 +33,10 @@ const DetailKesehatan = {
                         ${kesehatan.kesehatan[id - 1].description}
                       </div>
         </article>`;
-        };
-        detailKesehatan();
-        },
+    };
+    detailKesehatan();
+  },
 
-
-      };
+};
 
 export default DetailKesehatan;

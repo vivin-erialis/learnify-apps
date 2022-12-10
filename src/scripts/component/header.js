@@ -1,12 +1,12 @@
 /* eslint-disable linebreak-style */
 
 class HeaderApp extends HTMLElement {
-    connectedCallback() {
-      this.render();
-    }
-  
-    render() {
-      this.innerHTML = `
+  connectedCallback() {
+    this.render();
+  }
+
+  render() {
+    this.innerHTML = `
       <style>
       .header {
         padding: 20px;
@@ -154,9 +154,9 @@ class HeaderApp extends HTMLElement {
               <search-bar></search-bar>
               <a href="#" id="hamburgerMenu" class="header-menu" aria-label="navigation-menu">☰</a>  
               <ul class="nav-list open">
-                <li class="nav-item"><a href="/">HOME</a></li>
-                <li class="nav-item"><a href="#dashboard">DASHBOARD</a></li>
-                <li class="nav-item"><a href="#about">ABOUT</a></li>
+                <li class="nav-item home"><a href="/">HOME</a></li>
+                <li class="nav-item dash"><a href="#dashboard">DASHBOARD</a></li>
+                <li class="nav-item about"><a href="#about">ABOUT</a></li>
                 
                 <div class="dropdown nav-item">
                   <button class="dropdown-button">MODUL</button>
@@ -180,8 +180,7 @@ class HeaderApp extends HTMLElement {
         </div>
   </header>
           `;
-    }
   }
-  
-  customElements.define('header-app', HeaderApp);
-  
+}
+
+customElements.define('header-app', HeaderApp);

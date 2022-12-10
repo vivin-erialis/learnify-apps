@@ -3,8 +3,8 @@ import '../../component/landing-page';
 import '../../component/about';
 
 const Dashboard = {
-    async render() {
-            return ` <style>
+  async render() {
+    return ` <style>
             .module-item {
                 background-color: #B1D0E0;
                 margin: 20px;
@@ -99,13 +99,13 @@ const Dashboard = {
         </section>
         <about-page></about-page>
             `;
-      },
-    
-      async afterRender() {
-        // const dash = await TheModulSource.ModulDashboard();
-        const dashId = document.querySelector('#module');
-        dashboard.dashboard.forEach((dashboards) => {
-          dashId.innerHTML += `
+  },
+
+  async afterRender() {
+    // const dash = await TheModulSource.ModulDashboard();
+    const dashId = document.querySelector('#module');
+    dashboard.dashboard.forEach((dashboards) => {
+      dashId.innerHTML += `
             <article class="module-item">
                 <div class="module-item-video">
                     <video src="${dashboards.videoId}" controls></video>
@@ -115,10 +115,8 @@ const Dashboard = {
                 </div>
             </article>
             `;
-        });
-
-
-      },
-}
+    });
+  },
+};
 
 export default Dashboard;

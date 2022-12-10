@@ -1,10 +1,10 @@
 class FooterApp extends HTMLElement {
-    connectedCallback() {
-        this.render()
-    }
+  connectedCallback() {
+    this.render();
+  }
 
-    render() {
-        this.innerHTML = `
+  render() {
+    this.innerHTML = `
         <style>
             footer{
 			display: grid;
@@ -56,7 +56,7 @@ class FooterApp extends HTMLElement {
 	</footer>
 
         `;
-    }
+  }
 }
 
 customElements.define('footer-app', FooterApp);
