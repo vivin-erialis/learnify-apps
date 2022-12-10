@@ -163,7 +163,7 @@ class HeaderApp extends HTMLElement {
                   <div class="dropdown-content">
                   
                   <a href="#/bisnis">Bisnis</a>
-                  <a href="#/ilkom">Ilmu Komunikasi</a>
+                  <a href="#/ilkom">Ilmu Komputer</a>
                   <a href="#/investasi">Investasi</a>
                   <a href="#/kerajinan">Kerajinan</a>
                   <a href="#/kesehatan">Kesehatan</a>

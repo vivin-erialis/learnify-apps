@@ -16,15 +16,15 @@ const DetailKerajinan = {
         const kerajinanElement = document.querySelector('#details');
         const detailKerajinan = () => {
           kerajinanElement.innerHTML += 
-            ` <article class="module-item">
+            ` <article class="sub-module-item">
                   <div class="container" >
-                    <h2>${kerajinan.kerajinan[id-1].title}</h2>
+                    <h2 class="title-sub-module">${kerajinan.kerajinan[id-1].title}</h2>
                     <img src="${kerajinan.kerajinan[id-1].pictureId}">
                     <div class="description">
                       <p>${kerajinan.kerajinan[id-1].description}</p>
                     </div>
                     <div class="specification"><br>
-                      ${kerajinan.kerajinan[id-1].specific.join('<br>')}
+                      <p>${kerajinan.kerajinan[id-1].specific.join('<br>')}<p>
                     </div>
                   </div>
         </article>`

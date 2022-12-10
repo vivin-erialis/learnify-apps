@@ -25,14 +25,17 @@ const DetailKesehatan = {
         const { id } = url;
         const kesehatanElement = document.querySelector('#details');
         const detailKesehatan = () => {
-          kesehatanElement.innerHTML += ` <article class="container-detail">
-                      <img src="${kesehatan.kesehatan[id - 1].pictureId}">
-                      <h2>${kesehatan.kesehatan[id - 1].title}</h2>
-                      <hr>
-                      <div class="des">
-                        ${kesehatan.kesehatan[id - 1].description}
-                      </div>
-        </article>`;
+          kesehatanElement.innerHTML += ` 
+          <article class="sub-module-item">
+          <h2 class="title-sub-module">${kesehatan.kesehatan[id - 1].title}</h2>
+          <img src="${kesehatan.kesehatan[id - 1].pictureId}">
+          
+          <div class="description">
+            <p>${kesehatan.kesehatan[id - 1].description}</p>
+          </div>
+</article>
+          </div>`;
+          
         };
         detailKesehatan();
         },

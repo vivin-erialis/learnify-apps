@@ -16,9 +16,9 @@ const DetailInvestasi = {
         const investasiElement = document.querySelector('#details');
         const detailInvestasi = () => {
           investasiElement.innerHTML += 
-            ` <article class="module-item">
+            ` <article class="sub-module-item">
                   <div class="container" >
-                    <h2>${investasi.investasi[id-1].title}</h2>
+                    <h2 class="title-sub-module">${investasi.investasi[id-1].title}</h2>
                     <img src="${investasi.investasi[id-1].pictureId}">
                     <div class="description">
                       <p>${investasi.investasi[id-1].description}</p>

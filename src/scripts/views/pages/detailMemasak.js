@@ -16,9 +16,9 @@ const DetailMemasak = {
         const memasakElement = document.querySelector('#details');
         const detailmemasak = () => {
           memasakElement.innerHTML += 
-            ` <article class="module-item">
+            ` <article class="sub-module-item">
                   <div class="container" >
-                    <h2>${memasak.memasak[id-1].title}</h2>
+                    <h2 class="title-sub-module">${memasak.memasak[id-1].title}</h2>
                     <img src="${memasak.memasak[id-1].pictureId}">
                     <div class="bahan"><br>
                       <p>Bahan yang diperlukan : <br><br>${memasak.memasak[id-1].bahan.join('<br>')}</p>

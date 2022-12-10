@@ -17,15 +17,15 @@ const DetailBisnis = {
         const bisnisElement = document.querySelector('#details');
         const detailBisnis = () => {
           bisnisElement.innerHTML += 
-            ` <article class="module-item">
+            ` <article class="sub-module-item">
                   <div class="container" >
-                    <h2>${bisnis.bisnis[id-1].title}</h2>
+                    <h2 class="title-sub-module">${bisnis.bisnis[id-1].title}</h2>
                     <img src="${bisnis.bisnis[id-1].pictureId}">
                     <div class="description">
                       <p>${bisnis.bisnis[id-1].description}</p>
                     </div>
                     <div class="specification"><br>
-                      ${bisnis.bisnis[id-1].specific.join('<br>')}
+                      <p>${bisnis.bisnis[id-1].specific.join('<br>')}</p>
                     </div>
                   </div>
         </article>`
