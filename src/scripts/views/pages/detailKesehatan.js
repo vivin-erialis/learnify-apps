@@ -18,6 +18,7 @@ const DetailKesehatan = {
             
         </section>
         `;
+<<<<<<< HEAD
   },
 
   async afterRender() {
@@ -36,6 +37,29 @@ const DetailKesehatan = {
     };
     detailKesehatan();
   },
+=======
+      },
+    
+      async afterRender() {
+        const url = UrlParser.parseActiveUrlWithoutCombiner();
+        const { id } = url;
+        const kesehatanElement = document.querySelector('#details');
+        const detailKesehatan = () => {
+          kesehatanElement.innerHTML += ` 
+          <article class="sub-module-item">
+          <h2 class="title-sub-module">${kesehatan.kesehatan[id - 1].title}</h2>
+          <img src="${kesehatan.kesehatan[id - 1].pictureId}">
+          
+          <div class="description">
+            <p>${kesehatan.kesehatan[id - 1].description}</p>
+          </div>
+</article>
+          </div>`;
+          
+        };
+        detailKesehatan();
+        },
+>>>>>>> ef14314d5a7c83dcb73269d99e9640e4de776a30
 
 };
 

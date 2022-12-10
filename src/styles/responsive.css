@@ -35,13 +35,41 @@
         grid-template-columns: 1fr;
     }
     .headline {
-        font-size: 12px;;
+        font-size: 12px;
     }
 
     .title a{
-        font-size: 16px;;
+        font-size: 16px;
     }
 
+}
+
+@media screen and (max-width: 400px) {
+    .sub-module-item {
+        padding: 10px 20px;
+      }
+      
+      img {
+        width: 100%;
+        border-radius: 10px;
+      }
+      
+      .title-sub-module {
+        margin-bottom: 12px;
+      }
+
+      .sub-module-item h2 {
+        font-size: 12px;
+      }
+
+      .sub-module-item p {
+        font-size: 9px;
+      }
+      
+      .description {
+        padding: 5px;
+        margin-top: 10px;
+      }
 }
 
 @media screen and (min-width: 1200px) {
