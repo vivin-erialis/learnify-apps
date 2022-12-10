@@ -1,10 +1,10 @@
 class LandingPage extends HTMLElement {
-    connectedCallback() {
-        this.render();
-    }
-    
-    render() {
-        this.innerHTML = `
+  connectedCallback() {
+    this.render();
+  }
+
+  render() {
+    this.innerHTML = `
         <style>
         .content-section2 {
             display:grid;
@@ -166,7 +166,7 @@ class LandingPage extends HTMLElement {
             
         </section>
         `;
-    }
+  }
 }
 
 customElements.define('landing-page', LandingPage);

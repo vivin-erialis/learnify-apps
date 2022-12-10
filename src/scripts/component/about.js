@@ -1,12 +1,12 @@
 /* eslint-disable linebreak-style */
 
 class AboutPage extends HTMLElement {
-    connectedCallback() {
-      this.render();
-    }
-  
-    render() {
-      this.innerHTML = `
+  connectedCallback() {
+    this.render();
+  }
+
+  render() {
+    this.innerHTML = `
       <style>
       article{
         margin: 20px;
@@ -108,8 +108,7 @@ class AboutPage extends HTMLElement {
       </div>
 
           `;
-    }
   }
-  
-  customElements.define('about-page', AboutPage);
-  
+}
+
+customElements.define('about-page', AboutPage);

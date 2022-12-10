@@ -1,9 +1,9 @@
-import bisnis from '../data/bisnis.json'
+import bisnis from '../data/bisnis.json';
 
-let upList = document.getElementById('module')
-let up = ''
-bisnis.bisnis.forEach(bisnis => {
-    up += `
+const upList = document.getElementById('module');
+let up = '';
+bisnis.bisnis.forEach((bisnis) => {
+  up += `
         <style>
             .module {
                 display: grid;
@@ -42,6 +42,6 @@ bisnis.bisnis.forEach(bisnis => {
             <p class="headline">${bisnis.headline}</p>
             </div>
         </article>
-    `
-})
-upList.innerHTML = up
+    `;
+});
+upList.innerHTML = up;
