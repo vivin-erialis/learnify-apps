@@ -27,6 +27,14 @@
     .title a{
         font-size: 11px;
     }
+
+    .sub-module-item p{
+        font-size: 10px;
+    }
+
+    .title-sub-module {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 450px) {

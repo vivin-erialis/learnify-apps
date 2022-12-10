@@ -7,7 +7,9 @@ const Bisnis = {
                 <img class="picture-page" src="../images/bisnis.jpg">
                 <h1 class="dash-tagline">BISNIS</h1><hr>
                 <article id="module" class="module">
+                
                 </article>
+                
             </section>
         `;
       },

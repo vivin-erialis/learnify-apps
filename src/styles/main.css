@@ -130,6 +130,9 @@ hr{
   margin-bottom: 15px;
 }
 
+.sub-module-item p {
+  font-size: 13px;
+}
 .description {
   text-align: justify;
   padding: 10px;

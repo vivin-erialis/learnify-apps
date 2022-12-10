@@ -6,7 +6,7 @@ const DetailBisnis = {
     async render() {
       return ` 
         <section id="details">
-            
+        
         </section>
         `;
       },

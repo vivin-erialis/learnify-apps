@@ -61,6 +61,13 @@ class LandingPage extends HTMLElement {
                 font-size: 10px;
             }
 
+            .content-section2 {
+                display:grid;
+                grid-template-columns: 1fr ;
+                
+            }
+
+
         } 
 
         @media screen and (max-width: 400px) {

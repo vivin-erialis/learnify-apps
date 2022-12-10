@@ -13,11 +13,12 @@ const Dashboard = {
             }
             .title a{
                 text-decoration: none;
-                color: #1A374D;
-                font-size: 20px;
+                color: white;
+                font-size: 13px;
             } 
             .title {
                 margin-top: -2px;
+                padding-bottom: 7px;
                 text-align: center;
             }
             .container {
@@ -25,11 +26,14 @@ const Dashboard = {
             }
             .module-item-video video {
                 width: 100%;
-                border-radius: 10px 10px 0px 0px;
             }
             .headline {
                 margin-top: 20px;
                 font-size: 13px;
+            }
+
+            video {
+                width: 100%;
             }
 
             @media screen and (max-width: 900px) {
@@ -38,29 +42,19 @@ const Dashboard = {
                     grid-template-columns: 1fr 1fr 1fr;
                 }
 
-                .module-item-video video {
-                    width: 100%;
-                    height:150px;
-                }
-
                 .title a{
-                    font-size: 20px;
+                    font-size: 13px;
                 }
             } 
 
             @media screen and (max-width: 700px) {
                 .module {
                     display: grid;
-                    grid-template-columns: 1fr 1fr;
-                }
-
-                .module-item-video video {
-                    width: 100%;
-                    height:150px;
+                    grid-template-columns: 1fr;
                 }
 
                 .title a{
-                    font-size: 16px;
+                    font-size: 12px;
                 }
                 .dash-tagline {
                     font-size: 25px;
@@ -73,13 +67,8 @@ const Dashboard = {
                     grid-template-columns: 1fr;
                 }
 
-                .module-item-video video {
-                    width: 100%;
-                    height:110px;
-                }
-
-                .title {
-                    font-size: 12px;
+                .title a{
+                    font-size: 9px;
                 }
             } 
 
@@ -106,12 +95,12 @@ const Dashboard = {
         const dashId = document.querySelector('#module');
         dashboard.dashboard.forEach((dashboards) => {
           dashId.innerHTML += `
-            <article class="module-item">
+            <article>
                 <div class="module-item-video">
                     <video src="${dashboards.videoId}" controls></video>
                 </div>
                 <div class="container">
-                <h2 class="title"><a href">${dashboards.title}</a></h2>
+                <h2 class="title"><a href">${dashboards.title}</a></h2><hr>
                 </div>
             </article>
             `;
