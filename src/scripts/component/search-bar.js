@@ -91,9 +91,6 @@ class SearchBar extends HTMLElement {
         </button>
       </div>
     `;
-
-    this.shadowDOM.querySelector('#searchElement').addEventListener('keyup', this._clickEvent);
-    this.shadowDOM.querySelector('#searchButtonElement').addEventListener('click', this._clickEvent);
   }
 }
 
