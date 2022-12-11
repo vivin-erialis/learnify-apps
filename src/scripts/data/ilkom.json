@@ -1,97 +1,97 @@
 {
-    "ilkom": [
-      {
-        "id": "1",
-        "title": "Pengertian Komputer Menurut para Ahli",
-        "headline":"Komputer adalah sistem yang terdiri dari beberapa aspek yakni Hardware, Software, dan Brainware.",
-        "description": "Komputer adalah sistem yang terdiri dari beberapa aspek yakni Hardware, Software, dan Brainware. Berikut ini beberapa pengertian komputer menurut para ahli.",
-        "specific": [
-            "1. Menurut Robert H. Blissmer, Komputer adalah sebuah alat elektronik yang dapat melakukan beberapa tugas seperti menerima input, memprosesnya, menyimpan perintah dan menyediakan output dalam bentuk informasi.",
-            "2. Menurut V.C. Hamacher et al, Komputer adalah sebuah mesin penghitung elektronik yang dengan cepat dapat menerima informasi input digital lalu memprosesnya sesuai dengan program yang tersimpan di memorinya dan menghasilkan output berupa informasi.",
-            "3. Menurut Donald H. Sanderes, Komputer adalah sistem elektronik untuk memanipulasi data dengan tepat dan cepat serta dirancang dan diorganisasikan agar secara otomatis menerima dan menyimpan data input, memprosesnya, dan menghasilkan output di bawah pengawasan suatu langkah-langkah instruksi program (Sistem Operasi) yang tersimpan di didalam penyimpannya.",
-            "4. Menurut William M. Fuori, Komputer adalah suatu alat pemroses data yang dapat melakukan perhitungan secara cepat, termasuk perhitungan aritmetika dan operasi logikatanpa campur tangan manusia.",
-            "5. Menurut C. Hamacher, Z.G. Vranesic, dan Z.G. Zaky, Komputer adalah sebuah mesin penghitung elektronik yang cepat dapat menerima informasi input digital, memprosesnya sesuai dengan suatu program yang tersimpan di memorinya (stored program) dan menghasilkan output informasi.",
-            "6. Menurut American Standard Institute, Komputer adalah suatu pemroses data (data prosesor) yang dapat melakukan perhitungan yang lebih besar dan cepat termsuk perhitungan aritmatika yang besar atau operasi logika tanpa campur tangan dari manusia untuk mengoprasikanya selama pemrosesan.",
-            "7. Menurut Larry Long & Nancy Long, Komputer adalah alat hitung elektronik yang mampu menginterpresentasikan juga melaksanakan perintah program untuk input, output, perhitungan, dan operasi-operasi logic."
-        ],
-        "pictureId": "https://firebasestorage.googleapis.com/v0/b/learnyfy-d1bf7.appspot.com/o/Ilmu%20Komputer%2FApa%20itu%20Komputer.jpg?alt=media&token=10a806a6-7a8e-49c2-be00-54a2cd6982e0",
-        "coverId": "https://firebasestorage.googleapis.com/v0/b/learnyfy-d1bf7.appspot.com/o/Ilmu%20Komputer%2Filkom.jpg?alt=media&token=58d30d0b-e661-4cc6-87ab-c70bfdd0b1cc"
-      },
+  "ilkom": [
+    {
+      "id": "1",
+      "title": "Pengertian Komputer Menurut para Ahli",
+      "headline":"Komputer adalah sistem yang terdiri dari beberapa aspek yakni Hardware, Software, dan Brainware.",
+      "description": "Komputer adalah sistem yang terdiri dari beberapa aspek yakni Hardware, Software, dan Brainware. Berikut ini beberapa pengertian komputer menurut para ahli.",
+      "specific": [
+          "1. Menurut Robert H. Blissmer, Komputer adalah sebuah alat elektronik yang dapat melakukan beberapa tugas seperti menerima input, memprosesnya, menyimpan perintah dan menyediakan output dalam bentuk informasi.",
+          "2. Menurut V.C. Hamacher et al, Komputer adalah sebuah mesin penghitung elektronik yang dengan cepat dapat menerima informasi input digital lalu memprosesnya sesuai dengan program yang tersimpan di memorinya dan menghasilkan output berupa informasi.",
+          "3. Menurut Donald H. Sanderes, Komputer adalah sistem elektronik untuk memanipulasi data dengan tepat dan cepat serta dirancang dan diorganisasikan agar secara otomatis menerima dan menyimpan data input, memprosesnya, dan menghasilkan output di bawah pengawasan suatu langkah-langkah instruksi program (Sistem Operasi) yang tersimpan di didalam penyimpannya.",
+          "4. Menurut William M. Fuori, Komputer adalah suatu alat pemroses data yang dapat melakukan perhitungan secara cepat, termasuk perhitungan aritmetika dan operasi logikatanpa campur tangan manusia.",
+          "5. Menurut C. Hamacher, Z.G. Vranesic, dan Z.G. Zaky, Komputer adalah sebuah mesin penghitung elektronik yang cepat dapat menerima informasi input digital, memprosesnya sesuai dengan suatu program yang tersimpan di memorinya (stored program) dan menghasilkan output informasi.",
+          "6. Menurut American Standard Institute, Komputer adalah suatu pemroses data (data prosesor) yang dapat melakukan perhitungan yang lebih besar dan cepat termsuk perhitungan aritmatika yang besar atau operasi logika tanpa campur tangan dari manusia untuk mengoprasikanya selama pemrosesan.",
+          "7. Menurut Larry Long & Nancy Long, Komputer adalah alat hitung elektronik yang mampu menginterpresentasikan juga melaksanakan perintah program untuk input, output, perhitungan, dan operasi-operasi logic."
+      ],
+      "pictureId": "https://firebasestorage.googleapis.com/v0/b/learnyfy-d1bf7.appspot.com/o/Ilkom%2FApa%20itu%20Komputer.jpg?alt=media&token=b959ac96-7f56-4434-a49c-1dda8af6d8f0",
+      "coverId": "https://firebasestorage.googleapis.com/v0/b/learnyfy-d1bf7.appspot.com/o/Ilkom%2Filkom.jpg?alt=media&token=c8d3fe6d-b1c8-403b-afc2-b30150a444e4"
+    },
 
-      {
-        "id": "2",
-        "title": "Pengertian RAM dan Cara Kerjanya",
-        "headline":"Random Access Memory merupakan sebuah memori tempat penyimpanan data sementara saat komputer dijalankan dan bisa diacak secara andom atau acak.",
-        "description": "Fungsi RAM (Random Access Memory) adalah mempercepat pemrosesan data pada PC atau komputer, semakin besar RAM yang dimiliki maka akan semakin cepat pula komuter tersebut. RAM dapat mempercepat kinerja komputer karena RAM menyediakan ruang penyimpanan sementara bagi komputer. Dalam menyimpan data yang mudah diambil sehingga proses loading data dan program yang diakses akan lebih cepat.                                   Pada saat menyalakan komputer, device yang bekerja pertama kali yaitu Processor. Processor berfungsi sebagai pengolah data dan meminta data dari storage yakni Hard Disk. Ini berarti data tersebut dikirim dari Hard Disk setelah ada permintaan dari Processor. Namun praktek hal ini sulit dilakukan karena perbedaan teknologi yang ada pada Processor dan Hard Disk. Processor sendiri merupakan komponen digital murni dan akan memproses data dengan sangat cepat (Bandwidth tertinggi P4 saat ini 6,4 GB/s dengan FSB 800MHz).                                                             Sedangkan teknologi sebagian besar Hard Disk merupakan mekanis yang tentu cukup lambat dibandingkan digital (Bandwidth atau Transfer Rate HDD Serial ATA berkisar 150 MB/s). Secara teori kecepatan data Processor berkisar 46x lebih cepat dibanding Hard Disk.Ini berarti, Jika Processor menunggu pasokan data dari Hard Disk akan terjadi Bottle-Neck yang sangat parah.                                                                  Untuk mengatasi keadaan tersebut, dibutuhkan device Memori Utama atau Primary Memory yang disebut RAM (Random Access Memory). Fungsi RAM yaitu untuk membantu Processor dalam menyediakan data yang dibutuhkan. RAM berfungsi seperti halnya Hard Disk Digital, karena seluruh komponen RAM telah menggunakan teknologi digital.                                                                                                                    Dengan RAM, maka Processor tidak lagi perlu menunggu kiriman data dari Hard Disk. Saat ini RAM DDR2 memiliki bandwidth 3,2 GB/s (PC400), agar tidak menganggu pasokan maka saat ini Motherboard menggunakan teknologi Dual Channel yang bisa melipatgandakan bandwidth menjadi 2x dengan memperbesar arsitektur menjadi 128-bit. Ini berarti, 2 keping DDR2 dalam mode Dual Channel bisa memasok data dalam jumlah yang tepat ke Processor (3,2 GB/s x Dual Channel = 6,4 GB/s).",
-        "specific": [
-            "1. RAM (Dynamic RAM) adalah salah satu jenis RAM yang secara berkala harus disegarkan oleh CPU (Central Processing Unit) agara daya yang tersimpan didalamnya tidak hilang.",
-            "2. SDRAM atau Sychronous Dynamic Random Access Memory adalah jenis RAM yang merupakan kelanjutan dari DRAM namun sudah disinkronisasi oleh Clock sistem dan memiliki kecepatan yang lebih tinggi dibandingkan dengan DRAM (Dynamic Random Access Memory).",
-            "3. DDR RAM atau Double Rate Random Access Memory, DDR RAM juga sering disebut dengan DDR. RAM jenis ini merupakan teknologi kelanjutan dari SDRAM (Sychronous Dynamic Random Access Memory). Terdapat pula kelanjutannya jenis RAM ini yaitu DDR2 ( Double Data Rate Generation 2 RAM ) dan DDR3 (Double Data Rate generation 3 RAM), mungkin semakin kesini akan ada lagi generasi barunya.",
-            "4. RDRAM atau Rambus Dynamic Access Memory adalah jenis RAM yang lebih cepat dan lebih mahal dari pada SDRAM atau Sychronous Dynamic Random Access Memory. RAM ini dapat digunakan pada sistem yang menggunakan Pentium 4 (empat).",
-            "5. SRAM atau Static Random Access Memory merupakan jenis RAM yang tidak membutuhkan penyegaran oleh CPU agar data yang tersimpa di dalamnya tetap tersimpan dengan baik. RAM jenis ini memiliki kecepatan yang lebih tinggi di bandingkan dengan DRAM (Dynamic RAM) ataupun SDRAM (Sychronous Dynamic Random Access Memory).",
-            "6. EDORAM atau Extended Data Out Random Access Memory merupana jenis RAM yang digunakan pada sistem yang sudah menggunakan pentium. Jenis RAM ini bisa menyimpan serta mengambil isi memori secara bersamaan, sehingga kecepatan baca maupun tulisnya akan menjadi agak lebih cepat."
-        ],
-        "pictureId": "https://firebasestorage.googleapis.com/v0/b/learnyfy-d1bf7.appspot.com/o/Ilmu%20Komputer%2FRAM%20dan%20Kegunaanya.jpg?alt=media&token=c25d18e1-63d4-48df-9178-b1e10dd168ef"
-      },
+    {
+      "id": "2",
+      "title": "Pengertian RAM dan Cara Kerjanya",
+      "headline":"Random Access Memory merupakan sebuah memori tempat penyimpanan data sementara saat komputer dijalankan dan bisa diacak secara andom atau acak.",
+      "description": "Fungsi RAM (Random Access Memory) adalah mempercepat pemrosesan data pada PC atau komputer, semakin besar RAM yang dimiliki maka akan semakin cepat pula komuter tersebut. RAM dapat mempercepat kinerja komputer karena RAM menyediakan ruang penyimpanan sementara bagi komputer. Dalam menyimpan data yang mudah diambil sehingga proses loading data dan program yang diakses akan lebih cepat.                                   Pada saat menyalakan komputer, device yang bekerja pertama kali yaitu Processor. Processor berfungsi sebagai pengolah data dan meminta data dari storage yakni Hard Disk. Ini berarti data tersebut dikirim dari Hard Disk setelah ada permintaan dari Processor. Namun praktek hal ini sulit dilakukan karena perbedaan teknologi yang ada pada Processor dan Hard Disk. Processor sendiri merupakan komponen digital murni dan akan memproses data dengan sangat cepat (Bandwidth tertinggi P4 saat ini 6,4 GB/s dengan FSB 800MHz).                                                             Sedangkan teknologi sebagian besar Hard Disk merupakan mekanis yang tentu cukup lambat dibandingkan digital (Bandwidth atau Transfer Rate HDD Serial ATA berkisar 150 MB/s). Secara teori kecepatan data Processor berkisar 46x lebih cepat dibanding Hard Disk.Ini berarti, Jika Processor menunggu pasokan data dari Hard Disk akan terjadi Bottle-Neck yang sangat parah.                                                                  Untuk mengatasi keadaan tersebut, dibutuhkan device Memori Utama atau Primary Memory yang disebut RAM (Random Access Memory). Fungsi RAM yaitu untuk membantu Processor dalam menyediakan data yang dibutuhkan. RAM berfungsi seperti halnya Hard Disk Digital, karena seluruh komponen RAM telah menggunakan teknologi digital.                                                                                                                    Dengan RAM, maka Processor tidak lagi perlu menunggu kiriman data dari Hard Disk. Saat ini RAM DDR2 memiliki bandwidth 3,2 GB/s (PC400), agar tidak menganggu pasokan maka saat ini Motherboard menggunakan teknologi Dual Channel yang bisa melipatgandakan bandwidth menjadi 2x dengan memperbesar arsitektur menjadi 128-bit. Ini berarti, 2 keping DDR2 dalam mode Dual Channel bisa memasok data dalam jumlah yang tepat ke Processor (3,2 GB/s x Dual Channel = 6,4 GB/s).",
+      "specific": [
+          "1. RAM (Dynamic RAM) adalah salah satu jenis RAM yang secara berkala harus disegarkan oleh CPU (Central Processing Unit) agara daya yang tersimpan didalamnya tidak hilang.",
+          "2. SDRAM atau Sychronous Dynamic Random Access Memory adalah jenis RAM yang merupakan kelanjutan dari DRAM namun sudah disinkronisasi oleh Clock sistem dan memiliki kecepatan yang lebih tinggi dibandingkan dengan DRAM (Dynamic Random Access Memory).",
+          "3. DDR RAM atau Double Rate Random Access Memory, DDR RAM juga sering disebut dengan DDR. RAM jenis ini merupakan teknologi kelanjutan dari SDRAM (Sychronous Dynamic Random Access Memory). Terdapat pula kelanjutannya jenis RAM ini yaitu DDR2 ( Double Data Rate Generation 2 RAM ) dan DDR3 (Double Data Rate generation 3 RAM), mungkin semakin kesini akan ada lagi generasi barunya.",
+          "4. RDRAM atau Rambus Dynamic Access Memory adalah jenis RAM yang lebih cepat dan lebih mahal dari pada SDRAM atau Sychronous Dynamic Random Access Memory. RAM ini dapat digunakan pada sistem yang menggunakan Pentium 4 (empat).",
+          "5. SRAM atau Static Random Access Memory merupakan jenis RAM yang tidak membutuhkan penyegaran oleh CPU agar data yang tersimpa di dalamnya tetap tersimpan dengan baik. RAM jenis ini memiliki kecepatan yang lebih tinggi di bandingkan dengan DRAM (Dynamic RAM) ataupun SDRAM (Sychronous Dynamic Random Access Memory).",
+          "6. EDORAM atau Extended Data Out Random Access Memory merupana jenis RAM yang digunakan pada sistem yang sudah menggunakan pentium. Jenis RAM ini bisa menyimpan serta mengambil isi memori secara bersamaan, sehingga kecepatan baca maupun tulisnya akan menjadi agak lebih cepat."
+      ],
+      "pictureId": "https://firebasestorage.googleapis.com/v0/b/learnyfy-d1bf7.appspot.com/o/Ilkom%2FRAM%20dan%20Kegunaanya.jpg?alt=media&token=9ef875fa-6296-4527-b73a-74c64f26a9bf"
+    },
 
-      {
-        "id": "3",
-        "title": "Pengertian ROM dan Cara Kerjanya",
-        "headline":"Read Only Memory atau disingkat dengan ROM merupakan salah satu perangkat keras atau hardware pada komputer atau PC berupa chip memori semikonduktor yang isinya hanya dibaca saja.",
-        "description": "ROM merupakan salah satu memori yang ada dalam komputer. ROM ini bersifat permanen, artinya program atau data yang tersimpan dalam ROM tidak gampang hilang atau berubah-ubah walaupun aliran listrik mati. Menyimpan data dalam ROM tiodak bisa dilakukan dengan mudah akan tetapi membaca data bisa dilakukan dengan mudah. Program atau data yang ada diisi oleh pabrik pembuatnya. Karena sifat tersebut, ROM biasanya digunakan untuk menyimpan firmware atau perangkat lunak yang berhubungan erat dengan perangkat keras.                                                       Bentuk awal ROM terdiri atas sirkuit-sirkuit terpadu. ROM menggunakan switch transistor, data secara fisik dikodekan ke dalam rangkaian. Ini berarti hanya dapat diprogram selama fabrikasi aslinya. Ini benar-benar read-only, dan juga tidak terjadi perubahan yang mungkin sama sekali. Hal tersebut juga disebut dengan ROM masker, namun pada tahun 1990-an, memori flash telah diciptakan dan disajikan secara alternatif yang jauh lebih baik lagi. Flash memori juga non-volatile, sehingga membuat data tetap ada saat daya dimatikan, namun data dapat ditimpa. Artinya, firmware bisa diperbarui apabila dibutuhkan. Sekarang ini Flash ROM standar ada pada kebanyakan komputer. Secara teknis flash ROM tidak lagi read-only, namun sangat sedikit pengguna komputer biasa memodifikasi firmware dari pc/komputer mereka sendiri. Jika dibandingkan dengan penyimpananjenis lain, umumnya ROM cukup kecil. Firmware tidak memakan banyak ruang, serta memiliki kapasitas penyimpanan yang lebih besar, ROM juga tidak membuat PC boot up lebih cepat.",
-        "specific": [
-            "1. Mask ROM, PROM (Programmable Read Only Memory)",
-            "2. EPROM (Erasable Programmable Read Only Memory)",
-            "3. EAROM (Electrically Alterable Read Only Memory)"
-        ],
-        "pictureId": "https://firebasestorage.googleapis.com/v0/b/learnyfy-d1bf7.appspot.com/o/Ilmu%20Komputer%2FROM%20dan%20Kegunaanya.jpg?alt=media&token=51e24653-08f9-47c2-b52e-f8367a24a28c"
-      },
+    {
+      "id": "3",
+      "title": "Pengertian ROM dan Cara Kerjanya",
+      "headline":"Read Only Memory atau disingkat dengan ROM merupakan salah satu perangkat keras atau hardware pada komputer atau PC berupa chip memori semikonduktor yang isinya hanya dibaca saja.",
+      "description": "ROM merupakan salah satu memori yang ada dalam komputer. ROM ini bersifat permanen, artinya program atau data yang tersimpan dalam ROM tidak gampang hilang atau berubah-ubah walaupun aliran listrik mati. Menyimpan data dalam ROM tiodak bisa dilakukan dengan mudah akan tetapi membaca data bisa dilakukan dengan mudah. Program atau data yang ada diisi oleh pabrik pembuatnya. Karena sifat tersebut, ROM biasanya digunakan untuk menyimpan firmware atau perangkat lunak yang berhubungan erat dengan perangkat keras.                                                       Bentuk awal ROM terdiri atas sirkuit-sirkuit terpadu. ROM menggunakan switch transistor, data secara fisik dikodekan ke dalam rangkaian. Ini berarti hanya dapat diprogram selama fabrikasi aslinya. Ini benar-benar read-only, dan juga tidak terjadi perubahan yang mungkin sama sekali. Hal tersebut juga disebut dengan ROM masker, namun pada tahun 1990-an, memori flash telah diciptakan dan disajikan secara alternatif yang jauh lebih baik lagi. Flash memori juga non-volatile, sehingga membuat data tetap ada saat daya dimatikan, namun data dapat ditimpa. Artinya, firmware bisa diperbarui apabila dibutuhkan. Sekarang ini Flash ROM standar ada pada kebanyakan komputer. Secara teknis flash ROM tidak lagi read-only, namun sangat sedikit pengguna komputer biasa memodifikasi firmware dari pc/komputer mereka sendiri. Jika dibandingkan dengan penyimpananjenis lain, umumnya ROM cukup kecil. Firmware tidak memakan banyak ruang, serta memiliki kapasitas penyimpanan yang lebih besar, ROM juga tidak membuat PC boot up lebih cepat.",
+      "specific": [
+          "1. Mask ROM, PROM (Programmable Read Only Memory)",
+          "2. EPROM (Erasable Programmable Read Only Memory)",
+          "3. EAROM (Electrically Alterable Read Only Memory)"
+      ],
+      "pictureId": "https://firebasestorage.googleapis.com/v0/b/learnyfy-d1bf7.appspot.com/o/Ilkom%2FROM%20dan%20Kegunaanya.jpg?alt=media&token=2355f19b-16c3-4e06-84a5-a4284aac4269"
+    },
 
-      {
-        "id": "4",
-        "title": "Pengertian Website Menurut para Ahli",
-        "headline":"Website atau Web adalah sekumpulan halaman yang terdiri dari beberapa laman dan berisi tentang insormasi dalam bentuk digital baik itu tulisan (teks), gambar animasi yang disediakan melalui internet.",
-        "description": "Website atau Web adalah sekumpulan halaman yang terdiri dari beberapa laman dan berisi tentang insormasi dalam bentuk digital baik itu tulisan (teks), gambar animasi yang disediakan melalui internet. Berikut pengertian website menurut para ahli",
-        "specific": [
-            "1. Sukarno & Hianoto: Website adalah aset sama seperti halnya rumah, dan saat ini mulai lumrah di perjual belikan.",
-            "2. Suwanto Raharjo S.Si, M.Kom: Menurutnya, Layanan Web adalah salah satu Internet yang paling banyak dipergunakan dibandingkan dengan layanan lain seperti ftp, gopher, news atau bahkan email.",
-            "3. Boone (Thomson): Website adalah kumpulan grafis yang kaya sumber daya yang saling berhubungan satu sama lain di Internet yang lebih besar.",
-            "4. Feri Indayudha: Website adalah sebuah program yang dapat memuat film, gambar, suara & musik yang ditampilkan di internet.",
-            "5. Jasmadi: website adalah kumpulan halaman-halaman web beserta file-file pendukungnya, seperti gambar, video, dan file digital lainnya yang diletakkan di host atau web server yang umumnya diakses melalui internet."
-        ],
-        "pictureId": "https://firebasestorage.googleapis.com/v0/b/learnyfy-d1bf7.appspot.com/o/Ilmu%20Komputer%2FApa%20itu%20website.jpg?alt=media&token=6b26a489-2b1b-4fa4-8233-a9488b478763"
-      },
+    {
+      "id": "4",
+      "title": "Pengertian Website Menurut para Ahli",
+      "headline":"Website atau Web adalah sekumpulan halaman yang terdiri dari beberapa laman dan berisi tentang insormasi dalam bentuk digital baik itu tulisan (teks), gambar animasi yang disediakan melalui internet.",
+      "description": "Website atau Web adalah sekumpulan halaman yang terdiri dari beberapa laman dan berisi tentang insormasi dalam bentuk digital baik itu tulisan (teks), gambar animasi yang disediakan melalui internet. Berikut pengertian website menurut para ahli",
+      "specific": [
+          "1. Sukarno & Hianoto: Website adalah aset sama seperti halnya rumah, dan saat ini mulai lumrah di perjual belikan.",
+          "2. Suwanto Raharjo S.Si, M.Kom: Menurutnya, Layanan Web adalah salah satu Internet yang paling banyak dipergunakan dibandingkan dengan layanan lain seperti ftp, gopher, news atau bahkan email.",
+          "3. Boone (Thomson): Website adalah kumpulan grafis yang kaya sumber daya yang saling berhubungan satu sama lain di Internet yang lebih besar.",
+          "4. Feri Indayudha: Website adalah sebuah program yang dapat memuat film, gambar, suara & musik yang ditampilkan di internet.",
+          "5. Jasmadi: website adalah kumpulan halaman-halaman web beserta file-file pendukungnya, seperti gambar, video, dan file digital lainnya yang diletakkan di host atau web server yang umumnya diakses melalui internet."
+      ],
+      "pictureId": "https://firebasestorage.googleapis.com/v0/b/learnyfy-d1bf7.appspot.com/o/Ilkom%2FApa%20itu%20website.jpg?alt=media&token=a8337e9d-cbdc-4307-a8fd-6c7e19d7ec42"
+    },
 
-      {
-        "id": "5",
-        "title": "Pengertian dan Ruang Lingkup Rekayasa Perangkat Lunak (RPL)",
-        "headline":"Software Engineering atau Rekayasa Perangkat Lunak (RPL) adalah satu bidang profesi yang mendalami cara pengembangan perangkat lunak termasuk pembuatan, pemeliharaan, manajemen organisasi pengembanganan perangkat lunak dan manajemen kualitas.",
-        "description": "Menurut IEEE Computer Society, rekayasa perangkat lunak adalah penerapan suatu pendekatan yang sistematis, disiplin dan terkuantifikasi atas pengembangan, penggunaan dan pemeliharaan perangkat lunak, serta studi atas pendekatan ini, yaitu penerapan pendekatan engineering atas perangkat lunak.                                                                                                                 Rekayasa perangkat lunak adalah pengubahan perangkat lunak guna mengembangkan, memelihara, dan membangun kembali dengan menggunakan prinsip reakayasa untuk menghasilkan perangkat lunak yang dapat bekerja lebih efisien dan efektif untuk pengguna dengan kriteria yang dapat digunakan sebagai acuan dalam merekayasa perangkat lunak, diantaranya yaitu: dapat terus dirawat dan dipelihara(maintainability); dapat mengikuti perkembangan teknologi (dependability); dapat mengikuti keinginan pengguna(robust); efektif dan efisien dalam menggunakan energi dan penggunaannya; dan dapat memenuhi kebutuhan yang diinginkan(usability)",
-        "specific": [
-            "1. Software Requirements: ini berkaitan dengan spesifikasi kebutuhan dan persyaratan perangkat lunak.",
-            "2. Software Design: ini meliputi proses penampilan arsitektur, komponen, antar muka dan karakteristik lain dari perangkat lunak.",
-            "3. Software Construction: ini berkaitan dengan detail pengembangan perangkat lunak, termasuk algoritma, pengkodean, pencarian kesalahan dan pengujian.",
-            "4. Software Testing: ini meliputi pengujian pada kinerja perangkat lunak secara keseluruhan.",
-            "5. Software Maintenance: Ini meliputi upaya perawatan saat  perangkat lunak telah dioperasikan.",
-            "6. Software Configuration Management: Ini berkaitan dengan usaha perubahan konfigurasi perangkat lunak untuk memenuhi kebutuhan tertentu.",
-            "7. Software Engineering Management: Ini berkaitan dengan pengelolaan dan pengukuran RPL, termasuk perencanaan proyek perangkat lunak.",
-            "8. Software Engineering Process: Ini berkaitan dengan implementasi, definisi, pengukuran, pengelolaan, perubahan dan perbaikan proses Rekayasa Perangkat Lunak."
-        ],
-        "pictureId": "https://firebasestorage.googleapis.com/v0/b/learnyfy-d1bf7.appspot.com/o/Ilmu%20Komputer%2FRekayasa%20Perangkat%20Lunak.jpg?alt=media&token=e08e3ba6-0502-40e6-ac93-b9ebd0fb14da"
-      },
+    {
+      "id": "5",
+      "title": "Pengertian dan Ruang Lingkup Rekayasa Perangkat Lunak (RPL)",
+      "headline":"Software Engineering atau Rekayasa Perangkat Lunak (RPL) adalah satu bidang profesi yang mendalami cara pengembangan perangkat lunak termasuk pembuatan, pemeliharaan, manajemen organisasi pengembanganan perangkat lunak dan manajemen kualitas.",
+      "description": "Menurut IEEE Computer Society, rekayasa perangkat lunak adalah penerapan suatu pendekatan yang sistematis, disiplin dan terkuantifikasi atas pengembangan, penggunaan dan pemeliharaan perangkat lunak, serta studi atas pendekatan ini, yaitu penerapan pendekatan engineering atas perangkat lunak.                                                                                                                 Rekayasa perangkat lunak adalah pengubahan perangkat lunak guna mengembangkan, memelihara, dan membangun kembali dengan menggunakan prinsip reakayasa untuk menghasilkan perangkat lunak yang dapat bekerja lebih efisien dan efektif untuk pengguna dengan kriteria yang dapat digunakan sebagai acuan dalam merekayasa perangkat lunak, diantaranya yaitu: dapat terus dirawat dan dipelihara(maintainability); dapat mengikuti perkembangan teknologi (dependability); dapat mengikuti keinginan pengguna(robust); efektif dan efisien dalam menggunakan energi dan penggunaannya; dan dapat memenuhi kebutuhan yang diinginkan(usability)",
+      "specific": [
+          "1. Software Requirements: ini berkaitan dengan spesifikasi kebutuhan dan persyaratan perangkat lunak.",
+          "2. Software Design: ini meliputi proses penampilan arsitektur, komponen, antar muka dan karakteristik lain dari perangkat lunak.",
+          "3. Software Construction: ini berkaitan dengan detail pengembangan perangkat lunak, termasuk algoritma, pengkodean, pencarian kesalahan dan pengujian.",
+          "4. Software Testing: ini meliputi pengujian pada kinerja perangkat lunak secara keseluruhan.",
+          "5. Software Maintenance: Ini meliputi upaya perawatan saat  perangkat lunak telah dioperasikan.",
+          "6. Software Configuration Management: Ini berkaitan dengan usaha perubahan konfigurasi perangkat lunak untuk memenuhi kebutuhan tertentu.",
+          "7. Software Engineering Management: Ini berkaitan dengan pengelolaan dan pengukuran RPL, termasuk perencanaan proyek perangkat lunak.",
+          "8. Software Engineering Process: Ini berkaitan dengan implementasi, definisi, pengukuran, pengelolaan, perubahan dan perbaikan proses Rekayasa Perangkat Lunak."
+      ],
+      "pictureId": "https://firebasestorage.googleapis.com/v0/b/learnyfy-d1bf7.appspot.com/o/Ilkom%2FRekayasa%20Perangkat%20Lunak.jpg?alt=media&token=9550176f-0296-423a-be5d-a66fcee5cddf"
+    },
 
-      {
-        "id": "6",
-        "title": "Rumus Perhitungan Dasar di Excel",
-        "headline":"Rumus Perhitungan, Penjumlahan, Pengurangan, Pembagian dan Perkalian di Microsoft Excel.",
-        "description": "Hal dasar yang harus kita kuasi dalam belajar excel adalah mengetahui operasi perhitungan matematika, seperti operasi hiutng penjumlahan, pengurangan, perkasilan atau pembagian. Kali ini pelajaransekolahonline akan membahas tentang rumus operasi perhitungan dalam excel.                                                                                                                                     Dalam excel, tidak menyediakan fungsi khusus untuk melakukan pengurangan, perkalian dan pembagian, hal tersebtu berbeda dengan penjumlahan. Pada penjumlahan terdapat bebrapa fungsi khusus yang digunakan, seperti fungsi SUM, SUMIF, SUMIFS dan lainnya. Simak penjelasan dibawah ini untuk mengetahui lebih lanjut.",
-        "specific": [
-            "1. Penjumlahan: utnuk melakukan penjumlahan dengan menggunakan fungsi SUM. Cara ini lebih sering digunakan karena lebih efisisen dan lebih simple. Selain fungsi SUM, excel juga menyediakna beberapa fungsi lain yang digunakan utnuk penjumlahan seperti fungsi SUMIF, SUMIFS, SUNTOTAL, COUNT, COUNTA dan lainnya.",
-            "2. Pengurangan: Untuk melakukan pengurangan dalam excel menggunakan operator minus (-) karena excel tidak memberikan fungsi khusus seperti pada penjumlahan. Cara penulisan yang dilakukan yaitu seperti menuliskan soal pengurangan pada umumnya, hanya saja untuk menuliskan rumus excel selalu diberi tanda sama dengan (=). Sedangkan untuk melakukan pengurangan angka didalam cell tertentu sebelumnya kita harus mengaktifkan cel yang akan dihitung",
-            "3. Perkalian: Untuk melakukan perkalian dalma excel digunakan operator asterik atau tanda bintang (*), kita juga bisa melakukan perkalian dengan menggunakn fungsi PRODUCT.",
-            "4. Pembagian: Untuk melakukan pembagian dalam excel menggunakan operator slash taua tanda miring (/). Cara penulisan yang digunakna juga sama dengan rumus-rumus sebelumnya."
-        ],
-        "pictureId": "https://firebasestorage.googleapis.com/v0/b/learnyfy-d1bf7.appspot.com/o/Ilmu%20Komputer%2FExcel%20dan%20Perhitungan%20dasar.jpg?alt=media&token=31de9f70-aa3f-45ad-abd5-3de9b58aee97"
-      }
-    ]
+    {
+      "id": "6",
+      "title": "Rumus Perhitungan Dasar di Excel",
+      "headline":"Rumus Perhitungan, Penjumlahan, Pengurangan, Pembagian dan Perkalian di Microsoft Excel.",
+      "description": "Hal dasar yang harus kita kuasi dalam belajar excel adalah mengetahui operasi perhitungan matematika, seperti operasi hiutng penjumlahan, pengurangan, perkasilan atau pembagian. Kali ini pelajaransekolahonline akan membahas tentang rumus operasi perhitungan dalam excel.                                                                                                                                     Dalam excel, tidak menyediakan fungsi khusus untuk melakukan pengurangan, perkalian dan pembagian, hal tersebtu berbeda dengan penjumlahan. Pada penjumlahan terdapat bebrapa fungsi khusus yang digunakan, seperti fungsi SUM, SUMIF, SUMIFS dan lainnya. Simak penjelasan dibawah ini untuk mengetahui lebih lanjut.",
+      "specific": [
+          "1. Penjumlahan: utnuk melakukan penjumlahan dengan menggunakan fungsi SUM. Cara ini lebih sering digunakan karena lebih efisisen dan lebih simple. Selain fungsi SUM, excel juga menyediakna beberapa fungsi lain yang digunakan utnuk penjumlahan seperti fungsi SUMIF, SUMIFS, SUNTOTAL, COUNT, COUNTA dan lainnya.",
+          "2. Pengurangan: Untuk melakukan pengurangan dalam excel menggunakan operator minus (-) karena excel tidak memberikan fungsi khusus seperti pada penjumlahan. Cara penulisan yang dilakukan yaitu seperti menuliskan soal pengurangan pada umumnya, hanya saja untuk menuliskan rumus excel selalu diberi tanda sama dengan (=). Sedangkan untuk melakukan pengurangan angka didalam cell tertentu sebelumnya kita harus mengaktifkan cel yang akan dihitung",
+          "3. Perkalian: Untuk melakukan perkalian dalma excel digunakan operator asterik atau tanda bintang (*), kita juga bisa melakukan perkalian dengan menggunakn fungsi PRODUCT.",
+          "4. Pembagian: Untuk melakukan pembagian dalam excel menggunakan operator slash taua tanda miring (/). Cara penulisan yang digunakna juga sama dengan rumus-rumus sebelumnya."
+      ],
+      "pictureId": "https://firebasestorage.googleapis.com/v0/b/learnyfy-d1bf7.appspot.com/o/Ilkom%2FExcel%20dan%20Perhitungan%20dasar.jpg?alt=media&token=9742cd78-196e-47d1-bda5-07d3e3476b41"
+    }
+  ]
 }

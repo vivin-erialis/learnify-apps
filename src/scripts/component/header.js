@@ -15,7 +15,7 @@ class HeaderApp extends HTMLElement {
       nav {
         position: fixed;
         display: grid;
-        grid-template-columns: 2fr 0.5fr 2fr;
+        grid-template-columns: 0.5fr 1.2fr;
         left: 0;
         top: 0;
         width: 100%;
@@ -84,7 +84,7 @@ class HeaderApp extends HTMLElement {
       nav {
         position: fixed;
         display: grid;
-        grid-template-columns: 1fr 0.5fr 0.9fr;
+        grid-template-columns: 0.5fr 0.9fr;
       }
 
     }
@@ -94,7 +94,7 @@ class HeaderApp extends HTMLElement {
       nav {
         position: fixed;
         display: grid;
-        grid-template-columns: 1fr 0.5fr 0.2fr;
+        grid-template-columns: 1fr 0.2fr;
         left: 0;
         top: 0;
         width: 100%;
@@ -112,9 +112,9 @@ class HeaderApp extends HTMLElement {
       }
 
       .open-drawer {
-        -webkit-transform: translate(120%, 0);
-        transform: translate(120%, 0);
-        margin-top: -15px;
+        -webkit-transform: translate(120px, 0);
+        transform: translate(126px, 0);
+        margin-top: 5px;
         padding:10px;
         background:#406882;
       }
@@ -151,7 +151,6 @@ class HeaderApp extends HTMLElement {
       <div class="header">            
             <nav id="drawerNavigation" class="navbar">
               <h1 class="name-apps">LEARNIFY</h1>
-              <search-bar></search-bar>
               <a href="#" id="hamburgerMenu" class="header-menu" aria-label="navigation-menu">☰</a>  
               <ul class="nav-list open">
                 <li class="nav-item home"><a href="/">HOME</a></li>

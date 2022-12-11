@@ -85,7 +85,7 @@ class AboutPage extends HTMLElement {
       </style>
       <h1 class="dash-tagline">ABOUT US</h1>
       <div class="content-profile" id="about">
-          <div class="profile" >
+          <div class="profile">
             <img class="logo" src="../images/wahyu.jpg">
             <p class="tagline-profile">Dicoding SIB</p>
             <h3 class="tagline-profile">Wahyu Hadi Prabowo</h3>
@@ -101,7 +101,7 @@ class AboutPage extends HTMLElement {
             <h3 class="tagline-profile">Viola Yosevi</h3>
           </div>
           <div class="profile" >
-            <img class="logo" src="../images/logo.jpg">
+            <img class="logo" src="../images/fanda.jpg">
             <p class="tagline-profile">Dicoding SIB</p>
             <h3 class="tagline-profile">Fanda Alfaridzi</h3>
           </div>
